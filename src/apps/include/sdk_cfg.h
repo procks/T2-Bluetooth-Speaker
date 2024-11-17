@@ -11,27 +11,27 @@
 #include "includes.h"
 #include "sdk_const_define.h"
 /********               !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                  ********/
-//                修改配置前请认真看看这段功能互斥说明，谢谢
-//由于AC692X资源有限，SDK开发目前已知会有以下一些功能不能同时使用的情况。
-//1、使用后台一定不能使用芯片内部FM功能（硬件规格确定）
-//2、后台，混响，TWS功能互斥，只能存在其中一种功能（RAM资源不足）
-//3、独立的拍照模式跟后台不能同时打开（地址和名字需要独立初始化）
-//4、开了混响无法再打开软件EQ和BLE（RAM资源不足）
-//5、开了TWS 无法使用软件EQ（运算速度限制）
-//6、FM不支持录音（RAM资源不足）
-//7、不能同时录linein和录mic（硬件规格确定）
-//8、新增一拖二（也可支持后台），但与混响，TWS功能互斥，只能存在其中一种功能（RAM资源不足）
+// Please read this function mutual exclusion description carefully before modifying the configuration, thank you
+// Due to the limited resources of AC692X, SDK development currently knows that some of the following functions cannot be used at the same time.
+//1. When using the background, you must not use the FM function inside the chip (determined by the hardware specifications)
+//2. The background, reverberation, and TWS functions are mutually exclusive, and only one of them can exist (insufficient RAM resources)
+//3. The independent camera mode and the background cannot be opened at the same time (the address and name need to be initialized independently)
+//4. When the reverberation is turned on, the software EQ and BLE cannot be turned on (insufficient RAM resources)
+//5. When TWS is turned on, the software EQ cannot be used (computing speed limit)
+//6. FM does not support recording (insufficient RAM resources)
+//7. Linein and mic cannot be recorded at the same time (determined by the hardware specifications)
+//8. Added one-to-two (can also support the background), but it is mutually exclusive with the reverberation and TWS functions, and only one of them can exist (insufficient RAM resources)
 /*******************************************************************************/
+/************************************************************************************/
+//------------------------------Debug Class Configuration
 /********************************************************************************/
-//------------------------------调试类配置
-/********************************************************************************/
-//<开启系统打印调试功能
+//<Enable system print debugging function
 #define __DEBUG
 
 #ifdef __DEBUG
-//串口打印IO口选则
+//Serial print IO port selection
 #define DEBUG_UART_SEL          UART0_TXPA5_RXPA6
-//串口波特率选则
+//Serial port baud rate selection
 #define DEBUG_UART_RATE         460800    //115200
 //打印函数
 #define log_printf		        printf
@@ -42,18 +42,18 @@
 #define UART_UPDATA_EN          0
 
 /********************************************************************************/
-//------------------------------电源类配置
+//------------------------------Power supply configuration
 /********************************************************************************/
 //<电量监测
 #define SYS_LVD_EN              1
-#define POWER_EXTERN_DETECT_EN  0	//外部电压电量检测，一般用于点烟器采集车载电瓶电压
-//可选配置：PWR_NO_CHANGE / PWR_LDO15 / PWR_DCDC15
+#define POWER_EXTERN_DETECT_EN  0	//External voltage and power detection, generally used for cigarette lighter to collect vehicle battery voltage
+//Optional Configuration：PWR_NO_CHANGE / PWR_LDO15 / PWR_DCDC15
 #define PWR_MODE_SELECT        PWR_LDO15
-///蓝牙无连接自动关机计时，u16类型，0表示不自动关机
-#define AUTO_SHUT_DOWN_TIME     0 //((3*60* 2)/2+10) //除以2 减去进低功耗的时间 概数
-///<按键双击功能
+///Bluetooth no connection automatic shutdown timer, u16 type, 0 means no automatic shutdown
+#define AUTO_SHUT_DOWN_TIME     0 //((3*60* 2)/2+10) //Divide by 2 minus the time it takes to enter low power consumption Approximate number
+///<Button double click function
 #define KEY_DOUBLE_CLICK        1
-///<电池电量低，是否切换电源输出配置
+///<Battery power is low, whether to switch power output configuration
 #define SWITCH_PWR_CONFIG		0
 
 #define SYS_VDDIO_LEVEL         1
@@ -61,64 +61,67 @@
 
 #define SYS_LDO_REDUCE_LEVEL    2
 
-#define LOW_POWER_NOISE_DEAL    0   //低电时底噪处理，该问题存在于VDDIO和HPVDD绑在一起的封装
+#define LOW_POWER_NOISE_DEAL    0   //Low power noise processing, this problem exists in the package where VDDIO and HPVDD are tied together
 
 /********************************************************************************/
-//------------------------------音效类配置
+//------------------------------Sound Effects Configuration
 /********************************************************************************/
 //EQ config.  //more config in audio_stream.h
-//EQ选则:EQ_RUN_NULL(不运行EQ) / EQ_RUN_HW (硬件EQ) / EQ_RUN_SW (软件EQ)
-#define EQ_RUN_SEL              EQ_RUN_HW    /*更多音效设置请在audio_stream.h头文件配置*/
-//EQ 串口在线调试使能
+//EQ Selection:EQ_RUN_NULL(Do not run EQ) / EQ_RUN_HW (Hardware EQ) / EQ_RUN_SW (Software EQ)
+#define EQ_RUN_SEL              EQ_RUN_HW    /*For more sound effect settings, please configure in the audio_stream.h header file*/
+//EQ Serial port online debugging enabled
 #define EQ_UART_DEBUG           0
-//在线调EQ 串口选则.可选:UART1_TXPB0_RXPB1  /  UART1_USB_TXDP_RXDM
+//Online EQ adjustment, serial port selection. Optional:UART1_TXPB0_RXPB1  /  UART1_USB_TXDP_RXDM
 #define EQ_DEBUG_UART_SEL       UART1_TXPB0_RXPB1    //EQ_UART_DEBUG 为1时有效
 #define EQ_DEBUG_UART_RATE      9600
-//<变速变调
-//注意该功能开启要考虑芯片性能， 相应提高系统频率，并且尽量不要跟其他cpu占用率高的应用同时打开
+//<Speed ​​and pitch change
+// Note that when this function is enabled, the chip performance should be considered, the system frequency should be increased accordingly,
+// and try not to open it at the same time as other applications with high CPU usage
 #define SPEED_PITCH_EN			0
 /********************************************************************************/
-//------------------------------DAC配置
+//------------------------------DAC Configuration
 /********************************************************************************/
-//是否选择VCMO直推耳机
+//Whether to choose VCMO direct push headphones
 #define VCOMO_EN 	            0
-//DAC声道选择：DAC_L_R_CHANNEL / DAC_L_CHANNEL / DAC_R_CHANNEL
+//DAC channel selection：DAC_L_R_CHANNEL / DAC_L_CHANNEL / DAC_R_CHANNEL
 #define DAC_CHANNEL_SLECT       DAC_L_R_CHANNEL
-//<dac差分输出
+//<dac differential output
 #define DAC_DIFF_OUTPUT		 	0
-//<dac声道合并
+//<dac channel merging
 #define DAC_SOUNDTRACK_COMPOUND 0
-//<dac声道差集
+//<dac channel difference
 #define DAC_SOUNDTRACK_SUBTRACT 0
-//<通话切换成差分输出(前提是VCOMO_EN为1)
+//<Talk is switched to differential output (provided that VCOMO_EN is 1)
 #define CALL_USE_DIFF_OUTPUT	0
-//<自动mute
+//<Automatic mute
 #define DAC_AUTO_MUTE_EN	    1
-//<按键音
+//<Key Tone
 #define TONE_EN     	    	1
-//<非0表示使用默认音量
+//<Non-zero means use the default volume
 #define SYS_DEFAULT_VOL         0
-//<非0表示提示音使用默认音量
-#define TONE_DEFAULT_VOL        0
+//<Non-zero means the prompt tone uses the default volume
+#define TONE_DEFAULT_VOL        1
 
 /********************************************************************************/
-//------------------------------外设类配置
+//------------------------------Peripheral configuration
 /********************************************************************************/
 #define SDMMC0_EN               0
 #define SDMMC1_EN               1
 #define USB_DISK_EN             1
 #define USB_PC_EN               1
-//设备在线时 上电是否进音乐模式。 1：上电设备插入不进音乐模式   0：上电进入音乐模式
+//When the device is online, whether to enter the music mode when powered on. 1: Do not enter the music mode when the device is powered on 0: Enter the music mode when powered on
 #define POWERUP_DEV_IGNORE      1
-//不使用设备的任务是否需要关闭设备,开启要考虑设备兼容性
+//Whether tasks that do not use the device require shutting down the device, device compatibility should be considered when turning it on.
 #define DEV_POWER_OFF_EN        0
 
-//usb_sd引脚复用，需要测试兼容性
-#define USB_SD0_MULT_EN     0   //<需要测试兼容性
-#define USB_SD1_MULT_EN     0   //<需要测试兼容性
+//usb_sd pin multiplexing, need to test compatibility
+#define USB_SD0_MULT_EN     0   //<Need to test compatibility
+#define USB_SD1_MULT_EN     0   //<Need to test compatibility
 
-//adkey 和 sd 复用,需要测试兼容性,注意:ADKEY分压较低的电阻值不能用,会对SD卡造成影响,请确保分压大于1.8V以上
-#define ADKEY_SD_MULT_EN    0   //0 不复用  1 复用sd0 2 复用sd1
+// ADKEY and SD are reused, and compatibility needs to be tested.
+// Note: ADKEY with a lower voltage divider resistance value cannot be used,
+// which will affect the SD card. Please ensure that the voltage divider is greater than 1.8V
+#define ADKEY_SD_MULT_EN    0   //0 not reuse 1 Reuse sd0 2 Reuse sd1
 
 #if(USB_SD0_MULT_EN == 1)||(USB_SD1_MULT_EN == 1)
 #undef USB_PC_EN
@@ -128,35 +131,37 @@
 
 
 /********************************************************************************/
-//------------------------------蓝牙类配置
+//------------------------------Bluetooth Class Configuration
 /********************************************************************************/
 #include "bluetooth/bluetooth_api.h"
 
-///可选配置：0(普通音箱)/BT_TWS_TRANSMIT(对箱使能)
-///如果仅作为单机使用，建议不开对箱宏，如果开了对箱宏而且做单机使用会占用基带，单机使用性能没不开对箱宏好
+///Optional configuration: 0 (ordinary speaker)/BT_TWS_TRANSMIT (enable speaker pairing)
+// If it is only used as a single device, it is recommended not to open the speaker pairing macro.
+// If the speaker pairing macro is opened and used as a single device, the baseband will be occupied,
+// and the performance of the single device will not be as good as without the speaker pairing macro.
 #define BT_TWS                  0//BT_TWS_TRANSMIT
 #if BT_TWS
 #undef  EQ_RUN_SEL
 #define EQ_RUN_SEL              EQ_RUN_NULL/*这个宏不修改，其它更多音效设置请在audio_stream.h头文件配置*/
 #endif
 
-///蓝牙连接个数选择 1 /2 一拖二
+///Bluetooth connection number selection 1 /2 One to Two
 #if BT_TWS
 #define BT_CONNTCT_NUM             2
-#define BT_TWS_LINEIN              0  //linein 转换成对箱播放
+#define BT_TWS_LINEIN              0  //linein Convert to box play
 #else
 #define BT_CONNTCT_NUM             1
 #define BT_TWS_LINEIN              0
 #endif
 
-//蓝牙是否开启后台模式
+//Is Bluetooth enabled in background mode?
 #if (BT_CONNTCT_NUM == 2)
 #define BT_BACKGROUND_EN		0
 #else
 #define BT_BACKGROUND_EN		0
 #endif
 #if (BT_BACKGROUND_EN== 0)
-///<HID拍照的独立模式只支持非后台
+///<HID The independent mode of taking photos only supports non-background
 #define BT_HID_INDEPENDENT_MODE  0
 #endif
 //可选配置：NORMAL_MODE/TEST_BQB_MODE/TEST_FCC_MODE/TEST_FRE_OFF_MODE/TEST_BOX_MODE/TEST_PERFOR_MODE
@@ -166,12 +171,12 @@
 #define BT_ANALOG_CFG           0
 #define BT_XOSC                 0
 
-//蓝牙晶振频偏设置 0x0~0xf//如果频偏为正，把值改大
+//Bluetooth crystal frequency deviation setting 0x0~0xf//If the frequency deviation is positive, increase the value
 #define BT_OSC_INTERNAL_L       0x09
 #define BT_OSC_INTERNAL_R       0x09
 
-//------------------------------蓝牙低功耗设置
-//使能该功能后只能是纯蓝牙功能，没有显示功能
+//------------------------------Bluetooth low power consumption settings
+//After enabling this function, it can only be a pure Bluetooth function, without display function
 
 //可选配置：SNIFF_EN/SNIFF_TOW_CONN_ENTER_POWERDOWN_EN
 #define SNIFF_MODE_CONF	       0//	SNIFF_EN
@@ -193,21 +198,21 @@
 
 #define BLE_BREDR_MODE          (BT_BREDR_EN)//资源充足的情况，tws 可以开启ble
 #else
-#define BLE_BREDR_MODE          (BT_BREDR_EN|BT_BLE_EN)//资源问题，开了ble，不能开启一拖二
+#define BLE_BREDR_MODE          (BT_BREDR_EN|BT_BLE_EN)//Resource problem, BLE is enabled, but one-to-two cannot be enabled
 #endif
 
 #if (BLE_BREDR_MODE&BT_BLE_EN)
-//可选配置：O--server ,1--client
+//Optional configuration：O--server ,1--client
 #define BLE_GAP_ROLE            0
 #endif
 
 #define	BT_PHONE_NUMBER		    0
 #define	BT_PHONE_VOL_SYNC       0
-//需要电量显示但是不需要通话功能
+//Need battery display but no call function
 #define BT_HFP_EN_SCO_DIS		0
-//播放手机自带来电提示音(前提是手机支持该功能)
+//Play the phone's own incoming call reminder tone (provided the phone supports this function)
 #define BT_INBAND_RINGTONE		0
-//对箱角色切换，连接手机的设备即为主机
+//Switch the roles of the boxes, the device connected to the phone becomes the host
 #define BT_TWS_ROLE_SWITCH		1
 
 ///对耳主从同时按下配对按键才进行配对
@@ -279,18 +284,18 @@
 /********************************************************************************/
 //------------------------------REC MACRO
 ///********************************************************************************/
-///<标准SDK录音功能
+///<Standard SDK recording function
 #define REC_EN              0
 
 
 #if (REC_EN == 1)
-///<MIC录音使能
+///<MIC recording enable
 #define MIC_REC_EN		1
 #define AUX_REC_EN      1
 #define FM_REC_EN       1
 #define BT_REC_EN       1
 
-#if (AUX_REC_EN == 1)  //AUX必须为数字通道
+#if (AUX_REC_EN == 1)  //AUX must be a digital channel
 #undef AUX_AD_ENABLE
 #define AUX_AD_ENABLE   1
 #endif
@@ -301,28 +306,28 @@
 /********************************************************************************/
 //------------------------------RTC MACRO
 /********************************************************************************/
-//标准SDK RTC时钟模式
+//Standard SDK RTC clock mode
 #define RTC_CLK_EN              0
 
 //dependency
 #if (RTC_CLK_EN == 1)
-//<RTC闹钟模式
+//<RTC alarm mode
 #define RTC_ALM_EN              1
 #endif
 
 /********************************************************************************/
 //------------------------------ECHO MACRO
 /********************************************************************************/
-//混响使能, 打开后可在BT/FM/MUSIC/LINEIN下开混响功能.
+//Reverb Enable, after turning it on, you can enable the reverb function under BT/FM/MUSIC/LINEIN.
 #define ECHO_EN                 0
 
 #if ECHO_EN
-//ECHO_EN为1时, 以下配置才有效
+//When ECHO_EN is 1, the following configuration is valid
 #define PITCH_EN                1
-//单独混响模式使能
+//Individual reverb mode enable
 #define TASK_ECHO_EN            1
 
-//混响一般不自动MUTE DAC
+//Reverb is generally not automatically MUTE DAC
 #undef DAC_AUTO_MUTE_EN
 #define  DAC_AUTO_MUTE_EN       0
 
@@ -379,7 +384,7 @@
 #endif
 
 /********************************************************************************/
-//------------------------------系统时钟等配置
+//------------------------------System clock and other configurations
 /********************************************************************************/
 //时钟配置  //more config in clock_interface.h
 #define OSC_Hz                  24000000L	//fpga:12M / chip:24M
@@ -402,7 +407,7 @@
 
 
 /********************************************************************************/
-//------------------------------有冲突的宏处理
+//------------------------------Conflicting macro handling
 /********************************************************************************/
 //USB口用于调试时, 关闭USB_DISK/PC功能.
 #if ( (defined(__DEBUG) && (DEBUG_UART_SEL == UART1_USB_TXDP_RXDM)) || \
