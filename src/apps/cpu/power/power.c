@@ -1027,5 +1027,13 @@ void power_on_detect_deal(void)
     check_power_on_voltage();
 }
 
+void pa_mute(void) {
+  PORTR_DIR(PORTR1,0);
+  PORTR_OUT(PORTR1,0);
+}
 
+void pa_umute(void) {
+  PORTR_DIR(PORTR1,0);
+  PORTR_OUT(PORTR1,1);
+}
 

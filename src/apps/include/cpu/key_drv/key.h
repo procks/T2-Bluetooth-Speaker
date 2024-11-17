@@ -25,10 +25,10 @@
 #endif/*KEY_UART_DEBUG*/
 
 /*按键类型定义*/
-#define KEY_AD_RTCVDD_EN       1   ///<采用RTCVDD电源的AD按键使能
+#define KEY_AD_RTCVDD_EN       1   ///<AD button enable using RTCVDD power supply <采用RTCVDD电源的AD按键使能
 #define KEY_AD_VDDIO_EN        0   ///<采用VDDIO电源的AD按键使能
 #define KEY_IO_EN              0   ///<IO按键使能
-#define KEY_IR_EN              1   ///<红外遥控使能,PA9
+#define KEY_IR_EN              0   ///<Infrared remote control enabled, PA9 <红外遥控使能,PA9
 #define KEY_TCH_EN             0   ///<触摸按键使能
 #define KEY_UART_EN            0   ///<串口按键使能
 #define KEY_ENCODER_EN		   0   ///<旋转编码器使能

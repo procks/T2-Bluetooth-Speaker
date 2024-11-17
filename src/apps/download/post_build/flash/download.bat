@@ -19,7 +19,7 @@ copy *.mp3 ..\
 cd ..
 
 @rem 文件下载列表
-isd_download.exe -tonorflash -dev br21 -boot 0x2000 -div6 -wait 300  -f uboot.boot sdk.app bt_cfg.bin  bt.mp3 music.mp3  linein.mp3 radio.mp3 pc.mp3  connect.mp3 disconnect.mp3 ring.mp3 warning.mp3 power_off.mp3 echo.mp3 record.mp3
+isd_download.exe -tonorflash -dev br21 -boot 0x2000 -div6 -wait 300 -key AC692X_3496.key -f uboot.boot sdk.app bt_cfg.bin bt.mp3 music.mp3 linein.mp3 radio.mp3 connect.mp3 power_off.mp3
 
 @rem 删除临时文件
 if exist *.mp3 del *.mp3 

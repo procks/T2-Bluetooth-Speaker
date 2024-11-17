@@ -211,14 +211,14 @@ static void audio_init(void)
     if (vm_read(VM_SYS_VOL, (void *)&sound.vol.sys_vol_l, VM_SYS_VOL_LEN) == VM_SYS_VOL_LEN) {
         log_printf("mem_vol:%d\n", sound.vol.sys_vol_l);
         /* limit system vol */
-        if (sound.vol.sys_vol_l < 10) {
-            sound.vol.sys_vol_l = 10;
-        }
+        //if (sound.vol.sys_vol_l < 10) {
+        //    sound.vol.sys_vol_l = 10;
+        //}
         if (sound.vol.sys_vol_l > MAX_SYS_VOL_L) {
             sound.vol.sys_vol_l = MAX_SYS_VOL_L;
         }
     } else {
-        sound.vol.sys_vol_l = 20;
+        sound.vol.sys_vol_l = 2;
         log_printf("default_vol:%d\n", sound.vol.sys_vol_l);
     }
 #endif

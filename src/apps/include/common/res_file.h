@@ -31,6 +31,7 @@
 #define RES_9_MP3               "/9.***"
 
 #define RES_POWER_OFF_MP3       "/power_off.***"
+#define RES_POWER_UP_MP3       "/power_up.***"
 #define RES_LOW_POWER_MP3       "/low_power.***"
 #define RES_WARNING_MP3     	"/warning.***"
 #define RES_TEST_MP3       		"/test.***"

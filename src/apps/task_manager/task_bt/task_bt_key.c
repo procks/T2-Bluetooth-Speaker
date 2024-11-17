@@ -4,52 +4,52 @@
                             AD按键表
 *******************************************************************/
 #define ADKEY_BT_SHORT		\
-                        /*00*/    MSG_BT_SEARCH_DEVICE,\
-                        /*01*/    MSG_REC_START,\
-                        /*02*/    MSG_BT_CALL_REJECT,\
-                        /*03*/    MSG_BT_CALL_HANGUP,\
-                        /*04*/    MSG_BT_CALL_LAST_NO,\
-                        /*05*/    MSG_BT_HID_TAKE_PIC,\
-                        /*06*/    MSG_EQ_MODE,\
-                        /*07*/    MSG_BT_PREV_FILE,\
-                        /*08*/    MSG_BT_NEXT_FILE,\
-                        /*09*/    MSG_BT_PP,
+                        /*00 2*/    MSG_VOL_DOWN,\
+                        /*01 x*/    NO_MSG,\
+                        /*02 4*/    MSG_BT_NEXT_FILE,\
+                        /*03 1*/    MSG_VOL_UP,\
+                        /*04 3*/    MSG_BT_PP,\
+                        /*05 x*/    NO_MSG,\
+                        /*06 x*/    NO_MSG,\
+                        /*07 x*/    NO_MSG,\
+                        /*08  */    NO_MSG,\
+                        /*09 0*/    NO_MSG,
 
 #define ADKEY_BT_LONG		\
-                        /*00*/    NO_MSG,\
-                        /*01*/    MSG_REC_STOP,\
-                        /*02*/    MSG_REC_PLAY,\
-                        /*03*/    MSG_REC_DEL,\
-                        /*04*/    NO_MSG,\
+                        /*00 2*/    MSG_VOL_DOWN,\
+                        /*01*/    NO_MSG,\
+                        /*02 4*/    MSG_CHANGE_WORKMODE,\
+                        /*03 1*/    MSG_VOL_UP,\
+                        /*04 3*/    MSG_BT_PREV_FILE,\
                         /*05*/    NO_MSG,\
-                        /*06*/    MSG_POWER_OFF,\
-                        /*07*/    MSG_VOL_DOWN,\
-                        /*08*/    MSG_VOL_UP,\
-                        /*09*/    MSG_CHANGE_WORKMODE,
+                        /*06*/    NO_MSG,\
+                        /*07*/    NO_MSG,\
+                        /*08*/    NO_MSG,\
+                        /*09 0*/    MSG_POWER_OFF,
 
 #define ADKEY_BT_HOLD		\
-                        /*00*/    NO_MSG,\
+                        /*00*/    MSG_VOL_DOWN,\
                         /*01*/    NO_MSG,\
                         /*02*/    NO_MSG,\
-                        /*03*/    NO_MSG,\
+                        /*03*/    MSG_VOL_UP,\
                         /*04*/    NO_MSG,\
                         /*05*/    NO_MSG,\
-                        /*06*/    MSG_POWER_OFF_HOLD,\
-                        /*07*/    MSG_VOL_DOWN,\
-                        /*08*/    MSG_VOL_UP,\
-                        /*09*/    NO_MSG,
+                        /*06*/    NO_MSG,\
+                        /*07*/    NO_MSG,\
+                        /*08*/    NO_MSG,\
+                        /*09*/    MSG_POWER_OFF_HOLD,
 
 #define ADKEY_BT_LONG_UP	\
                         /*00*/    NO_MSG,\
                         /*01*/    NO_MSG,\
                         /*02*/    NO_MSG,\
-                        /*03*/    NO_MSG,\
+                        /*03*/    MSG_VOL_KEY_UP,\
                         /*04*/    NO_MSG,\
                         /*05*/    NO_MSG,\
-                        /*06*/    MSG_POWER_KEY_UP,\
+                        /*06*/    NO_MSG,\
                         /*07*/    NO_MSG,\
-                        /*08*/    MSG_VOL_KEY_UP,\
-                        /*09*/    NO_MSG,
+                        /*08*/    NO_MSG,\
+                        /*09*/    MSG_POWER_KEY_UP,
 
 
 const u16 task_bt_ad_table[4][KEY_REG_AD_MAX] = {

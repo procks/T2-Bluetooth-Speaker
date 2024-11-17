@@ -47,7 +47,7 @@
 #pragma code_seg(".ble_app_code")
 #endif
 
-#define DEBUG_ENABLE
+//#define DEBUG_ENABLE
 #include "debug_log.h"
 
 

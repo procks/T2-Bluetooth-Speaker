@@ -36,6 +36,7 @@
 #include "echo_api.h"
 #include "rec_api.h"
 #include "task_manager.h"
+#include "power.h"
 
 #ifdef SUPPORT_MS_EXTENSIONS
 #pragma bss_seg(	".dac_app_bss")
@@ -139,8 +140,10 @@ void dac_automute_cb(u8 status)
 {
     if (status) {
         puts(">>auto_mute\n");
+        pa_mute();
     } else {
         puts(">>auto_umute\n");
+        pa_umute();
     }
 }
 

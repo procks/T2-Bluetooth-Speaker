@@ -50,7 +50,7 @@
 //Optional Configuration：PWR_NO_CHANGE / PWR_LDO15 / PWR_DCDC15
 #define PWR_MODE_SELECT        PWR_LDO15
 ///Bluetooth no connection automatic shutdown timer, u16 type, 0 means no automatic shutdown
-#define AUTO_SHUT_DOWN_TIME     0 //((3*60* 2)/2+10) //Divide by 2 minus the time it takes to enter low power consumption Approximate number
+#define AUTO_SHUT_DOWN_TIME     10*2*60 //((3*60* 2)/2+10) //Divide by 2 minus the time it takes to enter low power consumption Approximate number
 ///<Button double click function
 #define KEY_DOUBLE_CLICK        1
 ///<Battery power is low, whether to switch power output configuration
@@ -84,7 +84,7 @@
 //Whether to choose VCMO direct push headphones
 #define VCOMO_EN 	            0
 //DAC channel selection：DAC_L_R_CHANNEL / DAC_L_CHANNEL / DAC_R_CHANNEL
-#define DAC_CHANNEL_SLECT       DAC_L_R_CHANNEL
+#define DAC_CHANNEL_SLECT       DAC_L_CHANNEL
 //<dac differential output
 #define DAC_DIFF_OUTPUT		 	0
 //<dac channel merging
@@ -198,7 +198,7 @@
 
 #define BLE_BREDR_MODE          (BT_BREDR_EN)//资源充足的情况，tws 可以开启ble
 #else
-#define BLE_BREDR_MODE          (BT_BREDR_EN|BT_BLE_EN)//Resource problem, BLE is enabled, but one-to-two cannot be enabled
+#define BLE_BREDR_MODE          (BT_BREDR_EN/*|BT_BLE_EN*/)//Resource problem, BLE is enabled, but one-to-two cannot be enabled
 #endif
 
 #if (BLE_BREDR_MODE&BT_BLE_EN)
@@ -231,7 +231,7 @@
 //<AAC
 #define DEC_TYPE_AAC_ENABLE		0
 //<8K_code_space
-#define DEC_TYPE_WAV_ENABLE     1
+#define DEC_TYPE_WAV_ENABLE     0
 //<8K_code_space
 #define DEC_TYPE_FLAC_ENABLE    0
 //<8K_code_space
@@ -273,7 +273,7 @@
 /********************************************************************************/
 //------------------------------AUX MACRO
 /********************************************************************************/
-#define AUX_AD_ENABLE           0
+#define AUX_AD_ENABLE           1
 //aux检测使能
 #define AUX_DETECT_EN           1
 

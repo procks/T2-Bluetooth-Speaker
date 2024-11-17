@@ -6,54 +6,53 @@
 /*******************************************************************
                             AD按键表
 *******************************************************************/
-
 #define ADKEY_FM_SHORT		\
-                        /*00*/    NO_MSG,\
+                        /*00*/    MSG_FM_PREV_STATION,\
                         /*01*/    MSG_REC_START,\
-                        /*02*/    NO_MSG,\
-                        /*03*/    NO_MSG,\
+                        /*02*/    MSG_CHANGE_WORKMODE,\
+                        /*03*/    MSG_FM_NEXT_STATION,\
                         /*04*/    MSG_FM_SCAN_ALL_INIT,\
                         /*05*/    MSG_FM_PREV_STEP,\
                         /*06*/    MSG_FM_NEXT_STEP,\
-                        /*07*/    MSG_FM_PREV_STATION,\
-                        /*08*/    MSG_FM_NEXT_STATION,\
+                        /*07*/    NO_MSG,\
+                        /*08*/    NO_MSG,\
                         /*09*/    MSG_FM_PP,
 
 #define ADKEY_FM_LONG		\
-                        /*03*/    NO_MSG,\
+                        /*03*/    MSG_VOL_DOWN,\
                         /*01*/    MSG_REC_STOP,\
-                        /*02*/    MSG_REC_PLAY,\
-                        /*03*/    NO_MSG,\
+                        /*02*/    MSG_CHANGE_WORKMODE,\
+                        /*03*/    MSG_VOL_UP,\
                         /*04*/    NO_MSG,\
                         /*05*/    MSG_FM_SCAN_ALL_DOWN,\
                         /*06*/    MSG_FM_SCAN_ALL_UP,\
-                        /*07*/    MSG_VOL_DOWN,\
-                        /*08*/    MSG_VOL_UP,\
-                        /*09*/    MSG_CHANGE_WORKMODE,
+                        /*07*/    NO_MSG,\
+                        /*08*/    NO_MSG,\
+                        /*09*/    MSG_POWER_OFF,
 
 #define ADKEY_FM_HOLD		\
-                        /*00*/    NO_MSG,\
+                        /*00*/    MSG_VOL_DOWN,\
                         /*01*/    NO_MSG,\
                         /*02*/    NO_MSG,\
-                        /*03*/    NO_MSG,\
+                        /*03*/    MSG_VOL_UP,\
                         /*04*/    NO_MSG,\
                         /*05*/    NO_MSG,\
                         /*06*/    NO_MSG,\
-                        /*07*/    MSG_VOL_DOWN,\
-                        /*08*/    MSG_VOL_UP,\
-                        /*09*/    NO_MSG,
+                        /*07*/    NO_MSG,\
+                        /*08*/    NO_MSG,\
+                        /*09*/    MSG_POWER_OFF_HOLD,
 
 #define ADKEY_FM_LONG_UP	\
                         /*00*/    NO_MSG,\
                         /*01*/    NO_MSG,\
                         /*02*/    NO_MSG,\
-                        /*03*/    NO_MSG,\
+                        /*03*/    MSG_VOL_KEY_UP,\
                         /*04*/    NO_MSG,\
                         /*05*/    NO_MSG,\
                         /*06*/    NO_MSG,\
                         /*07*/    NO_MSG,\
-                        /*08*/    MSG_VOL_KEY_UP,\
-                        /*09*/    NO_MSG,
+                        /*08*/    NO_MSG,\
+                        /*09*/    MSG_POWER_KEY_UP,
 
 const u16 task_fm_ad_table[4][KEY_REG_AD_MAX] = {
     /*短按*/	    {ADKEY_FM_SHORT},

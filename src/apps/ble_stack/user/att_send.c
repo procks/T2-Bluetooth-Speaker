@@ -11,7 +11,7 @@
 #include "power_manage_api.h"
 #include "msg.h"
 
-#define DEBUG_ENABLE
+//#define DEBUG_ENABLE
 #include "debug_log.h"
 
 #if (BLE_BREDR_MODE&BT_BLE_EN)

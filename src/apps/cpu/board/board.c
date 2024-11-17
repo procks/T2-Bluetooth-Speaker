@@ -113,6 +113,7 @@ void board_main(u32 cfg_addr, u32 addr, u32 res, u32 first_start_flag)
     irq_global_enable();
 
     board_init();
+    pa_umute();
 
     /* spdif_open(); */
     /* mcpwm_demo(); */
