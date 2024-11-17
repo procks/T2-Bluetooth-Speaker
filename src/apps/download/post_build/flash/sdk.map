@@ -273,17 +273,17 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/bluetooth/msbc_enc_dec.a(version.o)
                               (--whole-archive)
 ../include_lib/rtc_lib.a(rtc_driver.o)
-                              obj\Release\apps\cpu\power\power.o (symbol from plugin) (RTC_CLK_INIT)
+                              obj/Release/apps/cpu/power/power.o (symbol from plugin) (RTC_CLK_INIT)
 ../include_lib/power_manage_lib.a(power_manage_api.o)
-                              obj\Release\apps\cpu\power\power.o (symbol from plugin) (set_lowpower_osc)
+                              obj/Release/apps/cpu/power/power.o (symbol from plugin) (set_lowpower_osc)
 ../include_lib/power_manage_lib.a(power_manage.o)
                               baseband_manager.o (symbol from plugin) (get_lowpower_mode_config)
 ../include_lib/power_manage_lib.a(pmu.o)
-                              obj\Release\apps\cpu\power\power.o (symbol from plugin) (PMU_CLK_INIT)
+                              obj/Release/apps/cpu/power/power.o (symbol from plugin) (PMU_CLK_INIT)
 ../include_lib/power_manage_lib.a(power_set.o)
                               power_manage_api.o (symbol from plugin) (set_pwrmd)
 ../include_lib/power_manage_lib.a(p33.o)
-                              obj\Release\apps\cpu\power\power.o (symbol from plugin) (P33_CLK_INIT)
+                              obj/Release/apps/cpu/power/power.o (symbol from plugin) (P33_CLK_INIT)
 ../include_lib/power_manage_lib.a(powersleep.o)
                               power_manage_api.o (symbol from plugin) (enter_sleep_mode)
 ../include_lib/power_manage_lib.a(power_driver.o)
@@ -297,63 +297,63 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/power_manage_lib.a(powerdown.o)
                               power_driver.o (symbol from plugin) (power_suspend_time)
 ../include_lib/periphy_lib.a(irq_api.o)
-                              obj\Release\apps\cpu\irq.o (symbol from plugin) (irq_init)
+                              obj/Release/apps/cpu/irq.o (symbol from plugin) (irq_init)
 ../include_lib/periphy_lib.a(rand64.o)
-                              obj\Release\apps\btstack\user\bt_configs_user.o (symbol from plugin) (get_random_number)
+                              obj/Release/apps/btstack/user/bt_configs_user.o (symbol from plugin) (get_random_number)
 ../include_lib/periphy_lib.a(clock_api.o)
-                              obj\Release\apps\cpu\clock.o (symbol from plugin) (clock_init)
+                              obj/Release/apps/cpu/clock.o (symbol from plugin) (clock_init)
 ../include_lib/periphy_lib.a(efuse_hw.o)
                               power_manage_api.o (symbol from plugin) (__efuse_drv)
 ../include_lib/periphy_lib.a(crc_api.o)
-                              obj\Release\apps\btstack\user\aec_user.o (symbol from plugin) (crc16)
+                              obj/Release/apps/btstack/user/aec_user.o (symbol from plugin) (crc16)
 ../include_lib/periphy_lib.a(clock_driver.o)
                               clock_api.o (symbol from plugin) (hw_clock_switching)
 ../include_lib/periphy_lib.a(startup.o)
                               (_start)
 ../include_lib/periphy_lib.a(irq_driver_asm.o)
-                              obj\Release\apps\ble_stack\user\att_send.o (symbol from plugin) (CPU_INT_DIS)
+                              obj/Release/apps/common/msg.o (symbol from plugin) (CPU_INT_DIS)
 ../include_lib/aec_lib.a(aec.o)
-                              obj\Release\apps\btstack\trunk\aec_main.o (symbol from plugin) (aec_handle_register)
+                              obj/Release/apps/btstack/trunk/aec_main.o (symbol from plugin) (aec_handle_register)
 ../include_lib/aec_lib.a(AGC.o)
                               aec.o (symbol from plugin) (aec_digital_agc)
 ../include_lib/aec_lib.a(aec_dbg.o)
                               aec.o (symbol from plugin) (aec_dbg_init)
 ../include_lib/aec_lib.a(PLC.o)
-                              obj\Release\apps\btstack\trunk\PLC_main.o (symbol from plugin) (PLC_query)
+                              obj/Release/apps/btstack/trunk/PLC_main.o (symbol from plugin) (PLC_query)
 ../include_lib/audio_lib.a(soft_eq.o)
-                              obj\Release\apps\cpu\audio\eq.o (symbol from plugin) (soft_eq_drv)
+                              obj/Release/apps/cpu/audio/eq.o (symbol from plugin) (soft_eq_drv)
 ../include_lib/audio_lib.a(ladc_drv.o)
-                              obj\Release\apps\cpu\audio\ladc.o (symbol from plugin) (ladc_drv_ops)
+                              obj/Release/apps/cpu/audio/ladc.o (symbol from plugin) (ladc_drv_ops)
 ../include_lib/audio_lib.a(plink_drv.o)
-                              obj\Release\apps\cpu\audio\pdm_link.o (symbol from plugin) (plnk_drv_ops)
+                              obj/Release/apps/cpu/audio/pdm_link.o (symbol from plugin) (plnk_drv_ops)
 ../include_lib/audio_lib.a(dac_api.o)
-                              obj\Release\apps\cpu\audio\audio.o (symbol from plugin) (dac_automute_init)
+                              obj/Release/apps/cpu/audio/audio.o (symbol from plugin) (dac_automute_init)
 ../include_lib/audio_lib.a(alink_drv.o)
-                              obj\Release\apps\cpu\audio\alink.o (symbol from plugin) (alink_init)
+                              obj/Release/apps/cpu/audio/alink.o (symbol from plugin) (alink_init)
 ../include_lib/audio_lib.a(src_drv.o)
-                              obj\Release\apps\common\audio_sync\sync_hardware.o (symbol from plugin) (src_ops)
+                              obj/Release/apps/common/audio_sync/sync_hardware.o (symbol from plugin) (src_ops)
 ../include_lib/audio_lib.a(dac_drv.o)
                               ladc_drv.o (symbol from plugin) (ladc_isr_register)
 ../include_lib/audio_lib.a(eq_drv.o)
-                              obj\Release\apps\cpu\audio\eq.o (symbol from plugin) (eq_drv)
+                              obj/Release/apps/cpu/audio/eq.o (symbol from plugin) (eq_drv)
 ../include_lib/audio_lib.a(linein_drv.o)
-                              obj\Release\apps\cpu\audio\ladc.o (symbol from plugin) (linein_channel_open)
+                              obj/Release/apps/cpu/audio/ladc.o (symbol from plugin) (linein_channel_open)
 ../include_lib/common_lib.a(circular_buf.o)
-                              obj\Release\apps\ble_stack\user\att_send.o (symbol from plugin) (cbuf_read)
+                              obj/Release/apps/common/msg.o (symbol from plugin) (cbuf_read)
 ../include_lib/common_lib.a(lbuf.o)
                               link_layer.o (symbol from plugin) (lbuf_get_chunk_num)
 ../include_lib/common_lib.a(linked_list.o)
                               l2cap.o (symbol from plugin) (linked_list_empty)
 ../include_lib/common_lib.a(math.o)
-                              obj\Release\apps\cpu\audio\ladc.o (symbol from plugin) (abs)
+                              obj/Release/apps/cpu/audio/ladc.o (symbol from plugin) (abs)
 ../include_lib/common_lib.a(printf-stdarg.o)
-                              obj\Release\apps\cpu\uart\uart.o (symbol from plugin) (register_handle_printf_putchar)
+                              obj/Release/apps/cpu/uart/uart.o (symbol from plugin) (register_handle_printf_putchar)
 ../include_lib/common_lib.a(resource_manage.o)
                               edr_main.o (symbol from plugin) (is_res_manage_empty)
 ../include_lib/common_lib.a(run_loop.o)
                               btstack_task.o (symbol from plugin) (__run_loop_register)
 ../include_lib/common_lib.a(sys_timer.o)
-                              obj\Release\apps\cpu\power\power.o (symbol from plugin) (get_jiffies)
+                              obj/Release/apps/cpu/power/power.o (symbol from plugin) (get_jiffies)
 ../include_lib/common_lib.a(vsprintf.o)
                               hci.o (symbol from plugin) (__vsprintf_len)
 ../include_lib/aec/libBtCalling.a(BT_Calling.o)
@@ -377,7 +377,7 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/aec/lib_esco_sync.a(syn_autolink.o)
                               aec.o (symbol from plugin) (get_syn_autolink_api)
 ../include_lib/dec/sbc_dec_lib.a(mtst_sbc.o)
-                              obj\Release\apps\btstack\user\a2dp_decode.o (symbol from plugin) (get_sbcd_ops)
+                              obj/Release/apps/btstack/user/a2dp_decode.o (symbol from plugin) (get_sbcd_ops)
 ../include_lib/dec/sbc_dec_lib.a(sbc_core.o)
                               ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o) (sbc_crc8_u)
 ../include_lib/dec/sbc_dec_lib.a(sbc_dec.o)
@@ -403,9 +403,9 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/dec/sbc_dec_lib_for_EngDect.a(sbc_tables.o)
                               sbc_core.o (symbol from plugin) (crc_table_d)
 ../include_lib/dec/wt_dec_lib.a(warning_tone.o)
-                              obj\Release\apps\common\music_player\warning_tone.o (symbol from plugin) (get_wt_ops)
+                              obj/Release/apps/common/music_player/warning_tone.o (symbol from plugin) (get_wt_ops)
 ../include_lib/dec/mp3_dec_lib.a(mtst_mp3.o)
-                              obj\Release\apps\common\music_player\music_player.o (symbol from plugin) (get_mp3_ops)
+                              obj/Release/apps/common/music_player/music_player.o (symbol from plugin) (get_mp3_ops)
 ../include_lib/dec/mp3_dec_lib.a(asf.o)
                               mtst_mp3.o (symbol from plugin) (mp3asf_read_header)
 ../include_lib/dec/mp3_dec_lib.a(mpeg_synth.o)
@@ -424,44 +424,36 @@ Archive member included to satisfy reference by file (symbol)
                               mpegaudio.o (symbol from plugin) (mp3_mpa_freq_tab)
 ../include_lib/dec/mp3_dec_lib.a(mp3_asm_subfun.o)
                               layer3.o (symbol from plugin) (III_freqinver_asm)
-../include_lib/dec/wav_dec_lib.a(testwav.o)
-                              obj\Release\apps\common\music_player\music_player.o (symbol from plugin) (get_wav_ops)
-../include_lib/dec/wav_dec_lib.a(wavdec_api.o)
-                              testwav.o (symbol from plugin) (wf_file_api_fun)
-../include_lib/dec/wav_dec_lib.a(msadpcmdec.o)
-                              wavdec_api.o (symbol from plugin) (ms_adpcm_decoder)
-../include_lib/dec/wav_dec_lib.a(ima_adpcm.o)
-                              wavdec_api.o (symbol from plugin) (ima_adpcm_decoder)
 ../include_lib/dev_mg_lib.a(dev_mg_api.o)
-                              obj\Release\apps\common\dev_manage.o (symbol from plugin) (dev_get_name_by_handle)
+                              obj/Release/apps/common/dev_manage.o (symbol from plugin) (dev_get_name_by_handle)
 ../include_lib/dev_mg_lib.a(mbr.o)
-                              obj\Release\apps\common\dev_manage.o (symbol from plugin) (mbr_scan)
+                              obj/Release/apps/common/dev_manage.o (symbol from plugin) (mbr_scan)
 ../include_lib/dev_mg_lib.a(dev_cache.o)
-                              obj\Release\apps\common\dev_manage.o (symbol from plugin) (dev_reg_cache)
+                              obj/Release/apps/common/dev_manage.o (symbol from plugin) (dev_reg_cache)
 ../include_lib/dev_mg_lib.a(dev_usb.o)
-                              obj\Release\apps\common\dev_manage.o (symbol from plugin) (usb_set_monut_parm)
+                              obj/Release/apps/common/dev_manage.o (symbol from plugin) (usb_set_monut_parm)
 ../include_lib/dev_mg_lib.a(dev_sd.o)
-                              obj\Release\apps\common\dev_manage.o (symbol from plugin) (dev_reg_sd1)
+                              obj/Release/apps/common/dev_manage.o (symbol from plugin) (dev_reg_sd1)
 ../include_lib/encode_lib.a(encode.o)
-                              obj\Release\apps\common\record\rec_input.o (symbol from plugin) (rec_malloc)
+                              obj/Release/apps/common/record/rec_input.o (symbol from plugin) (rec_malloc)
 ../include_lib/fs_lib.a(fs_io.o)
-                              obj\Release\apps\common\fs\fs.o (symbol from plugin) (fs_init)
+                              obj/Release/apps/common/fs/fs.o (symbol from plugin) (fs_init)
 ../include_lib/fs_lib.a(syd_io.o)
-                              obj\Release\apps\common\fs\fs.o (symbol from plugin) (syd_init)
+                              obj/Release/apps/common/fs/fs.o (symbol from plugin) (syd_init)
 ../include_lib/fs_lib.a(syd_file.o)
                               syd_io.o (symbol from plugin) (set_sydf_header_base)
 ../include_lib/fs_lib.a(fat_io.o)
-                              obj\Release\apps\task_manager\task_music\task_music.o (symbol from plugin) (fat_mem_init)
+                              obj/Release/apps/task_manager/task_music/task_music.o (symbol from plugin) (fat_mem_init)
 ../include_lib/fs_lib.a(ff_api.o)
                               fat_io.o (symbol from plugin) (set_swin_buf)
 ../include_lib/fs_lib.a(tff.o)
                               ff_api.o (symbol from plugin) (decode_lfn)
 ../include_lib/fm_lib.a(fm_inside_api.o)
-                              obj\Release\apps\task_manager\task_fm\fm_inside\fm_inside.o (symbol from plugin) (fm_inside_on)
+                              obj/Release/apps/task_manager/task_fm/fm_inside/fm_inside.o (symbol from plugin) (fm_inside_on)
 ../include_lib/fm_lib.a(fm_digital_set.o)
                               fm_inside_api.o (symbol from plugin) (fm_set_mono)
 ../include_lib/fm_lib.a(fm_init.o)
-                              obj\Release\apps\task_manager\task_fm\fm_inside\fm_inside.o (symbol from plugin) (set_fm_pcm_out_fun)
+                              obj/Release/apps/task_manager/task_fm/fm_inside/fm_inside.o (symbol from plugin) (set_fm_pcm_out_fun)
 ../include_lib/fm_lib.a(fm_rf.o)
                               fm_init.o (symbol from plugin) (fm_rf_init)
 ../include_lib/fm_lib.a(fm_scan.o)
@@ -471,9 +463,9 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/fm_lib.a(fm_dem.o)
                               fm_init.o (symbol from plugin) (fm_dem)
 ../include_lib/flash_lib.a(vm_api.o)
-                              obj\Release\apps\common\flash_api.o (symbol from plugin) (set_g_sys_cfg)
+                              obj/Release/apps/common/flash_api.o (symbol from plugin) (set_g_sys_cfg)
 ../include_lib/flash_lib.a(cache_vm.o)
-                              obj\Release\apps\cpu\audio\audio.o (symbol from plugin) (get_vm_statu)
+                              obj/Release/apps/cpu/audio/audio.o (symbol from plugin) (get_vm_statu)
 ../include_lib/flash_lib.a(winbond_flash.o)
                               cache_vm.o (symbol from plugin) (spiflash_continuous_read_mode_reset)
 ../include_lib/flash_lib.a(icache_hw.o)
@@ -487,11 +479,11 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/audio/libLimiter.a(QuasiFloat.o)
                               Limiter.o (symbol from plugin) (Integer2QuasiFloat)
 ../include_lib/audio/lib_sync_frame.a(syn_core.o)
-                              obj\Release\apps\common\audio_sync\sync_software.o (symbol from plugin) (get_sync_unit_api)
+                              obj/Release/apps/common/audio_sync/sync_software.o (symbol from plugin) (get_sync_unit_api)
 ../include_lib/audio/lib_sync_frame.a(datahandler.o)
                               syn_core.o (symbol from plugin) (sync_datalen_handler)
 ../include_lib/echo_lib.a(echo_deal.o)
-                              obj\Release\apps\common\echo\echo_api.o (symbol from plugin) (echo_pitch_set_lib)
+                              obj/Release/apps/common/echo/echo_api.o (symbol from plugin) (echo_pitch_set_lib)
 ../include_lib/echo/lib_audio_reverb_H.a(reverb_main.o)
                               echo_deal.o (symbol from plugin) (get_reverb_func_api)
 ../include_lib/echo/lib_audio_reverb_H.a(adpcmNohead.o)
@@ -529,7 +521,7 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/sdmmc_lib.a(sd_host_unmount.o)
                               sd_controller_interface.o (symbol from plugin) (sd_unmount)
 ../include_lib/sdmmc_lib.a(sd_host_read.o)
-                              obj\Release\apps\common\pc_device\card_reader_io.o (symbol from plugin) (sd1_read_go)
+                              obj/Release/apps/common/pc_device/card_reader_io.o (symbol from plugin) (sd1_read_go)
 ../include_lib/sdmmc_lib.a(sd_host_read_api.o)
                               sd_controller_interface.o (symbol from plugin) (sd_read_api)
 ../include_lib/sdmmc_lib.a(suspend_sdmmc.o)
@@ -647,7 +639,7 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/usb_lib.a(usb_online.o)
                               dev_mg_api.o (symbol from plugin) (get_usb_online_tentacle)
 ../include_lib/usb_lib.a(mango_dev_usb_slave.o)
-                              obj\Release\apps\common\pc_device\dev_pc.o (symbol from plugin) (usb_slave_alloc_init)
+                              obj/Release/apps/common/pc_device/dev_pc.o (symbol from plugin) (usb_slave_alloc_init)
 ../include_lib/usb_lib.a(usb_device_mount.o)
                               mango_dev_usb_slave.o (symbol from plugin) (usb_device_mount)
 ../include_lib/usb_lib.a(usb_slave_mic_adc.o)
@@ -669,7 +661,7 @@ Archive member included to satisfy reference by file (symbol)
 ../include_lib/usb_lib.a(usb_slave_scsi_libs.o)
                               mango_dev_usb_slave.o (symbol from plugin) (reg_usb_pc_protect)
 ../include_lib/usb_lib.a(usb_device_status.o)
-                              obj\Release\apps\task_manager\task_pc\task_pc.o (symbol from plugin) (usb_slave_is_online)
+                              obj/Release/apps/task_manager/task_pc/task_pc.o (symbol from plugin) (usb_slave_is_online)
 ../include_lib/usb_lib.a(usb_slave_online.o)
                               mango_dev_usb_slave.o (symbol from plugin) (usb_slave_online_check)
 ../include_lib/usb_lib.a(descriptor.o)
@@ -693,7 +685,7 @@ Archive member included to satisfy reference by file (symbol)
 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
                               vCard.o (symbol from plugin) (__ctype_ptr__)
 C:\JL\pi32\lib\libc.a(lib_a-memcmp.o)
-                              obj\Release\apps\btstack\user\bt_configs_user.o (symbol from plugin) (memcmp)
+                              obj/Release/apps/btstack/user/bt_configs_user.o (symbol from plugin) (memcmp)
 C:\JL\pi32\lib\libc.a(lib_a-memcpy.o)
                               ../include_lib/bluetooth/msbc_enc_dec.a(sbc_primitives.o) (memcpy)
 C:\JL\pi32\lib\libc.a(lib_a-memset.o)
@@ -703,11 +695,11 @@ C:\JL\pi32\lib\libc.a(lib_a-strcasecmp.o)
 C:\JL\pi32\lib\libc.a(lib_a-strchr.o)
                               vCard.o (symbol from plugin) (strchr)
 C:\JL\pi32\lib\libc.a(lib_a-strcmp.o)
-                              obj\Release\apps\btstack\user\a2dp_decode.o (symbol from plugin) (strcmp)
+                              obj/Release/apps/btstack/user/a2dp_decode.o (symbol from plugin) (strcmp)
 C:\JL\pi32\lib\libc.a(lib_a-strcpy.o)
                               vCard.o (symbol from plugin) (strcpy)
 C:\JL\pi32\lib\libc.a(lib_a-strlen.o)
-                              obj\Release\apps\ble_stack\user\le_server_module.o (symbol from plugin) (strlen)
+                              obj/Release/apps/common/music_player/music_decoder.o (symbol from plugin) (strlen)
 C:\JL\pi32\lib\libc.a(lib_a-strncmp.o)
                               vCard.o (symbol from plugin) (strncmp)
 C:\JL\pi32\lib\libc.a(lib_a-strstr.o)
@@ -715,212 +707,209 @@ C:\JL\pi32\lib\libc.a(lib_a-strstr.o)
 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
                               ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o) (__lshrdi3)
 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__ashldi3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__ashldi3)
 C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__divdf3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__divdf3)
 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__divdi3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__divdi3)
 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__divsf3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__divsf3)
 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__fixdfsi)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__fixdfsi)
 C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__fixsfsi)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__fixsfsi)
 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__floatsidf)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__floatsidf)
 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__floatsisf)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__floatsisf)
 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__floatunsidf)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__floatunsidf)
 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__floatunsisf)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__floatunsisf)
 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__muldf3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__muldf3)
 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
                               C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o) (__muldi3)
 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__subdf3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__subdf3)
 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__udivdi3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__udivdi3)
 C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
                               C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o) (__udivmoddi4)
 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
-                              C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o (__umoddi3)
+                              C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o (__umoddi3)
 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
                               C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o) (__adddf3)
 
 Allocating common symbols
 Common symbol       size              file
 
-vm_cache            0x0               obj\Release\apps\common\flash_api.o (symbol from plugin)
-src_t               0x0               obj\Release\apps\cpu\audio\src.o (symbol from plugin)
-eq_arg              0x0               obj\Release\apps\cpu\audio\eq.o (symbol from plugin)
-bcd_number          0x0               obj\Release\apps\cpu\ui\ui_common.o (symbol from plugin)
-ut_dma_wr_cnt       0x0               obj\Release\apps\cpu\uart\uart.o (symbol from plugin)
-music_decoder_hdl   0x0               obj\Release\apps\common\music_player\music_decoder.o (symbol from plugin)
-bt_ui_var           0x0               obj\Release\apps\task_manager\task_bt\task_bt.o (symbol from plugin)
-ui_disp_api         0x0               obj\Release\apps\cpu\ui\ui_api.o (symbol from plugin)
-plnk_ops            0x0               obj\Release\apps\cpu\audio\pdm_link.o (symbol from plugin)
-sound               0x0               obj\Release\apps\cpu\audio\audio.o (symbol from plugin)
-osc_internal_data   0x0               obj\Release\apps\btstack\user\bt_configs_user.o (symbol from plugin)
-led7_var            0x0               obj\Release\apps\cpu\ui\led\led7_drv.o (symbol from plugin)
-dac                 0x0               obj\Release\apps\cpu\audio\dac.o (symbol from plugin)
-ir_code             0x0               obj\Release\apps\cpu\key_drv\key_drv_ir.o (symbol from plugin)
-dac_param           0x0               obj\Release\apps\cpu\audio\dac.o (symbol from plugin)
-low_pwr_setup       0x0               obj\Release\apps\cpu\power\power.o (symbol from plugin)
-usb                 0x0               obj\Release\apps\common\dev_manage.o (symbol from plugin)
-cache               0x0               obj\Release\apps\common\dev_manage.o (symbol from plugin)
+vm_cache            0x0               obj/Release/apps/common/flash_api.o (symbol from plugin)
+src_t               0x0               obj/Release/apps/cpu/audio/src.o (symbol from plugin)
+eq_arg              0x0               obj/Release/apps/cpu/audio/eq.o (symbol from plugin)
+bcd_number          0x0               obj/Release/apps/cpu/ui/ui_common.o (symbol from plugin)
+ut_dma_wr_cnt       0x0               obj/Release/apps/cpu/uart/uart.o (symbol from plugin)
+music_decoder_hdl   0x0               obj/Release/apps/common/music_player/music_decoder.o (symbol from plugin)
+bt_ui_var           0x0               obj/Release/apps/task_manager/task_bt/task_bt.o (symbol from plugin)
+ui_disp_api         0x0               obj/Release/apps/cpu/ui/ui_api.o (symbol from plugin)
+plnk_ops            0x0               obj/Release/apps/cpu/audio/pdm_link.o (symbol from plugin)
+sound               0x0               obj/Release/apps/cpu/audio/audio.o (symbol from plugin)
+osc_internal_data   0x0               obj/Release/apps/btstack/user/bt_configs_user.o (symbol from plugin)
+led7_var            0x0               obj/Release/apps/cpu/ui/led/led7_drv.o (symbol from plugin)
+dac                 0x0               obj/Release/apps/cpu/audio/dac.o (symbol from plugin)
+dac_param           0x0               obj/Release/apps/cpu/audio/dac.o (symbol from plugin)
+low_pwr_setup       0x0               obj/Release/apps/cpu/power/power.o (symbol from plugin)
+usb                 0x0               obj/Release/apps/common/dev_manage.o (symbol from plugin)
+cache               0x0               obj/Release/apps/common/dev_manage.o (symbol from plugin)
 pc_module_start_flag
-                    0x0               obj\Release\apps\task_manager\task_pc\task_pc.o (symbol from plugin)
-adc_value           0x0               obj\Release\apps\cpu\adc_api.o (symbol from plugin)
-timer1_pad          0x0               obj\Release\apps\cpu\key_drv\key_drv_ir.o (symbol from plugin)
-spd_param           0x0               obj\Release\apps\btstack\trunk\aec_main.o (symbol from plugin)
-aec_online          0x0               obj\Release\apps\btstack\user\aec_user.o (symbol from plugin)
-hw_src              0x0               obj\Release\apps\cpu\audio\src.o (symbol from plugin)
-param               0x0               obj\Release\apps\cpu\audio\ladc.o (symbol from plugin)
-tws_linein_parm     0x0               obj\Release\apps\btstack\user\bt_tws.o (symbol from plugin)
-nwt_ops             0x0               obj\Release\apps\common\music_player\warning_tone.o (symbol from plugin)
-music_ui            0x0               obj\Release\apps\task_manager\task_music\task_music.o (symbol from plugin)
-user_send_cbuf      0x0               obj\Release\apps\ble_stack\user\att_send.o (symbol from plugin)
-tone_var            0x0               obj\Release\apps\common\music_player\warning_tone.o (symbol from plugin)
-curr_tone_parm      0x0               obj\Release\apps\common\music_player\warning_tone.o (symbol from plugin)
+                    0x0               obj/Release/apps/task_manager/task_pc/task_pc.o (symbol from plugin)
+adc_value           0x0               obj/Release/apps/cpu/adc_api.o (symbol from plugin)
+spd_param           0x0               obj/Release/apps/btstack/trunk/aec_main.o (symbol from plugin)
+aec_online          0x0               obj/Release/apps/btstack/user/aec_user.o (symbol from plugin)
+hw_src              0x0               obj/Release/apps/cpu/audio/src.o (symbol from plugin)
+param               0x0               obj/Release/apps/cpu/audio/ladc.o (symbol from plugin)
+tws_linein_parm     0x0               obj/Release/apps/btstack/user/bt_tws.o (symbol from plugin)
+nwt_ops             0x0               obj/Release/apps/common/music_player/warning_tone.o (symbol from plugin)
+music_ui            0x0               obj/Release/apps/task_manager/task_music/task_music.o (symbol from plugin)
+tone_var            0x0               obj/Release/apps/common/music_player/warning_tone.o (symbol from plugin)
+curr_tone_parm      0x0               obj/Release/apps/common/music_player/warning_tone.o (symbol from plugin)
 wavheader           0x2c              ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o)
-eq_cfg              0x0               obj\Release\apps\cpu\audio\eq.o (symbol from plugin)
-pwr_setup           0x0               obj\Release\apps\cpu\power\power.o (symbol from plugin)
-sd0                 0x0               obj\Release\apps\common\dev_manage.o (symbol from plugin)
-sin_tone_var        0x0               obj\Release\apps\cpu\audio\tone.o (symbol from plugin)
-sw_eq_param         0x0               obj\Release\apps\cpu\audio\eq.o (symbol from plugin)
-UI_var              0x0               obj\Release\apps\cpu\ui\ui_api.o (symbol from plugin)
-sd1                 0x0               obj\Release\apps\common\dev_manage.o (symbol from plugin)
-alink_parm          0x0               obj\Release\apps\cpu\audio\alink.o (symbol from plugin)
-sw_eq               0x0               obj\Release\apps\cpu\audio\eq.o (symbol from plugin)
-args                0x0               obj\Release\apps\cpu\board\board.o (symbol from plugin)
-decoder_io_p        0x0               obj\Release\apps\common\music_player\warning_tone.o (symbol from plugin)
-usb_spk_vol_value   0x0               obj\Release\apps\task_manager\task_pc\task_pc.o (symbol from plugin)
+eq_cfg              0x0               obj/Release/apps/cpu/audio/eq.o (symbol from plugin)
+pwr_setup           0x0               obj/Release/apps/cpu/power/power.o (symbol from plugin)
+sd0                 0x0               obj/Release/apps/common/dev_manage.o (symbol from plugin)
+sin_tone_var        0x0               obj/Release/apps/cpu/audio/tone.o (symbol from plugin)
+sw_eq_param         0x0               obj/Release/apps/cpu/audio/eq.o (symbol from plugin)
+UI_var              0x0               obj/Release/apps/cpu/ui/ui_api.o (symbol from plugin)
+sd1                 0x0               obj/Release/apps/common/dev_manage.o (symbol from plugin)
+alink_parm          0x0               obj/Release/apps/cpu/audio/alink.o (symbol from plugin)
+sw_eq               0x0               obj/Release/apps/cpu/audio/eq.o (symbol from plugin)
+args                0x0               obj/Release/apps/cpu/board/board.o (symbol from plugin)
+decoder_io_p        0x0               obj/Release/apps/common/music_player/warning_tone.o (symbol from plugin)
+usb_spk_vol_value   0x0               obj/Release/apps/task_manager/task_pc/task_pc.o (symbol from plugin)
 
 Discarded input sections
 
- .text          0x00000000        0x0 obj\Release\apps\auto_test\auto_test.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\ble_stack\user\att_send.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\ble_stack\user\le_client_module.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\ble_stack\user\le_server_module.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\trunk\aec_main.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\trunk\fcc_test.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\trunk\PLC_main.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\user\a2dp_decode.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\user\aec_user.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\user\bt_configs_user.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\btstack\user\bt_tws.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\audio_sync\sync_hardware.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\audio_sync\sync_software.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\audio_sync\sync_tws.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\common.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\dev_manage.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\echo\echo_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\file_operate\file_io.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\file_operate\file_operate.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\flash_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\fmtx\fmtx_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\fmtx\qn8007\qn8007.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\fmtx\qn8027\qn8027.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\fs\fs.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\msg.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\music_player\music_decoder.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\music_player\music_player.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\music_player\warning_tone.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\pc_device\card_reader_io.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\pc_device\dev_pc.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\pitchshifter\pitchshifter.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\record\rec_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\record\rec_file_op.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\record\rec_input.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\record\rec_output.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\record\rec_play.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\ui\font_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\common\ui\uicon_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\adc_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\alink.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\audio.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\audio_stream.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\dac.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\digital_vol.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\eq.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\ladc.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\pdm_link.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\sin_tab.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\src.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\audio\tone.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\board\board.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\board_init.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\clock.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\iic\iic.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\iic\iic_hw.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\iis\wm8978.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\irq.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_ad_rtcvdd.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_ad_vddio.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_encoder.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_io.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_ir.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_tch.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\key_drv\key_drv_uart.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\led\led.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\led\pwm_led.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\power\charge.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\power\power.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\rotate_dec.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\spdif.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\timer.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\uart\uart.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\lcd\lcd128X64.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\lcd\lcd_disp.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\lcd\lcd_drv_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\lcd\lcd_drv_interface.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\lcd\lcd_spi.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\led\led7_drv.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\led\led_1888_drv.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\bt_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\echo_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\fm_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\linein_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\music_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\pc_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\rec_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\task_ui\rtc_ui.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\ui_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\ui\ui_common.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\updata.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\cpu\wdt.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_bt\task_bt.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_bt\task_bt_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_common.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_echo\task_echo.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_echo\task_echo_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\bk1080\Bk1080.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\fm_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\fm_common.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\fm_inside\fm_inside.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\qn8035\QN8035.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\rda5807\RDA5807.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\task_fm.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_fm\task_fm_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_idle\task_idle.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_idle\task_idle_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_linein\task_linein.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_linein\task_linein_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_manager.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_music\lyrics_api.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_music\music_decrypt.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_music\task_music.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_music\task_music_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_pc\task_pc.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_pc\task_pc_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_rec\task_rec.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_rec\task_rec_key.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_rtc\rtc_setting.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_rtc\task_rtc.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Release\apps\task_manager\task_rtc\task_rtc_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/auto_test/auto_test.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/ble_stack/user/att_send.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/ble_stack/user/le_client_module.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/ble_stack/user/le_server_module.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/trunk/aec_main.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/trunk/fcc_test.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/trunk/PLC_main.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/user/a2dp_decode.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/user/aec_user.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/user/bt_configs_user.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/btstack/user/bt_tws.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/audio_sync/sync_hardware.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/audio_sync/sync_software.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/audio_sync/sync_tws.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/common.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/dev_manage.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/echo/echo_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/file_operate/file_io.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/file_operate/file_operate.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/flash_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/fmtx/fmtx_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/fmtx/qn8007/qn8007.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/fmtx/qn8027/qn8027.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/fs/fs.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/msg.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/music_player/music_decoder.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/music_player/music_player.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/music_player/warning_tone.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/pc_device/card_reader_io.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/pc_device/dev_pc.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/pitchshifter/pitchshifter.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/record/rec_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/record/rec_file_op.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/record/rec_input.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/record/rec_output.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/record/rec_play.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/ui/font_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/common/ui/uicon_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/adc_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/alink.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/audio.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/audio_stream.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/dac.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/digital_vol.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/eq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/ladc.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/pdm_link.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/sin_tab.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/src.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/audio/tone.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/board/board.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/board_init.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/clock.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/iic/iic.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/iic/iic_hw.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/iis/wm8978.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/irq.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_ad_rtcvdd.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_ad_vddio.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_encoder.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_io.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_ir.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_tch.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/key_drv/key_drv_uart.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/led/led.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/led/pwm_led.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/power/charge.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/power/power.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/rotate_dec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/spdif.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/timer.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/uart/uart.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/lcd/lcd128X64.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/lcd/lcd_disp.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/lcd/lcd_drv_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/lcd/lcd_drv_interface.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/lcd/lcd_spi.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/led/led7_drv.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/led/led_1888_drv.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/bt_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/echo_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/fm_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/linein_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/music_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/pc_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/rec_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/task_ui/rtc_ui.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/ui_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/ui/ui_common.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/updata.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/cpu/wdt.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_bt/task_bt.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_bt/task_bt_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_common.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_echo/task_echo.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_echo/task_echo_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/bk1080/Bk1080.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/fm_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/fm_common.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/fm_inside/fm_inside.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/qn8035/QN8035.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/rda5807/RDA5807.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/task_fm.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_fm/task_fm_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_idle/task_idle.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_idle/task_idle_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_linein/task_linein.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_linein/task_linein_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_manager.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_music/lyrics_api.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_music/music_decrypt.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_music/task_music.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_music/task_music_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_pc/task_pc.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_pc/task_pc_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_rec/task_rec.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_rec/task_rec_key.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_rtc/rtc_setting.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_rtc/task_rtc.o (symbol from plugin)
+ .text          0x00000000        0x0 obj/Release/apps/task_manager/task_rtc/task_rtc_key.o (symbol from plugin)
  .text          0x00000000        0x0 bredr.o (symbol from plugin)
  .text          0x00000000        0x0 RF.o (symbol from plugin)
  .text          0x00000000        0x0 analog.o (symbol from plugin)
@@ -1116,10 +1105,6 @@ Discarded input sections
  .text          0x00000000        0x0 layer3.o (symbol from plugin)
  .text          0x00000000        0x0 huffman.o (symbol from plugin)
  .text          0x00000000        0x0 mpeg_ctab.o (symbol from plugin)
- .text          0x00000000        0x0 testwav.o (symbol from plugin)
- .text          0x00000000        0x0 wavdec_api.o (symbol from plugin)
- .text          0x00000000        0x0 msadpcmdec.o (symbol from plugin)
- .text          0x00000000        0x0 ima_adpcm.o (symbol from plugin)
  .text          0x00000000        0x0 dev_mg_api.o (symbol from plugin)
  .text          0x00000000        0x0 mbr.o (symbol from plugin)
  .text          0x00000000        0x0 dev_cache.o (symbol from plugin)
@@ -1262,128 +1247,128 @@ code0            0x01000000         0x01000000         x
 
 Linker script and memory map
 
-LOAD obj\Release\apps\auto_test\auto_test.o
-LOAD C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-LOAD obj\Release\apps\ble_stack\user\att_send.o
-LOAD obj\Release\apps\ble_stack\user\le_client_module.o
-LOAD obj\Release\apps\ble_stack\user\le_server_module.o
-LOAD obj\Release\apps\btstack\trunk\aec_main.o
-LOAD obj\Release\apps\btstack\trunk\fcc_test.o
-LOAD obj\Release\apps\btstack\trunk\PLC_main.o
-LOAD obj\Release\apps\btstack\user\a2dp_decode.o
-LOAD obj\Release\apps\btstack\user\aec_user.o
-LOAD obj\Release\apps\btstack\user\bt_configs_user.o
-LOAD obj\Release\apps\btstack\user\bt_tws.o
-LOAD obj\Release\apps\common\audio_sync\sync_hardware.o
-LOAD obj\Release\apps\common\audio_sync\sync_software.o
-LOAD obj\Release\apps\common\audio_sync\sync_tws.o
-LOAD obj\Release\apps\common\common.o
-LOAD obj\Release\apps\common\dev_manage.o
-LOAD obj\Release\apps\common\echo\echo_api.o
-LOAD obj\Release\apps\common\file_operate\file_io.o
-LOAD obj\Release\apps\common\file_operate\file_operate.o
-LOAD obj\Release\apps\common\flash_api.o
-LOAD obj\Release\apps\common\fmtx\fmtx_api.o
-LOAD obj\Release\apps\common\fmtx\qn8007\qn8007.o
-LOAD obj\Release\apps\common\fmtx\qn8027\qn8027.o
-LOAD obj\Release\apps\common\fs\fs.o
-LOAD obj\Release\apps\common\msg.o
-LOAD obj\Release\apps\common\music_player\music_decoder.o
-LOAD obj\Release\apps\common\music_player\music_player.o
-LOAD obj\Release\apps\common\music_player\warning_tone.o
-LOAD obj\Release\apps\common\pc_device\card_reader_io.o
-LOAD obj\Release\apps\common\pc_device\dev_pc.o
-LOAD obj\Release\apps\common\pitchshifter\pitchshifter.o
-LOAD obj\Release\apps\common\record\rec_api.o
-LOAD obj\Release\apps\common\record\rec_file_op.o
-LOAD obj\Release\apps\common\record\rec_input.o
-LOAD obj\Release\apps\common\record\rec_output.o
-LOAD obj\Release\apps\common\record\rec_play.o
-LOAD obj\Release\apps\common\ui\font_api.o
-LOAD obj\Release\apps\common\ui\uicon_api.o
-LOAD obj\Release\apps\cpu\adc_api.o
-LOAD obj\Release\apps\cpu\audio\alink.o
-LOAD obj\Release\apps\cpu\audio\audio.o
-LOAD obj\Release\apps\cpu\audio\audio_stream.o
-LOAD obj\Release\apps\cpu\audio\dac.o
-LOAD obj\Release\apps\cpu\audio\digital_vol.o
-LOAD obj\Release\apps\cpu\audio\eq.o
-LOAD obj\Release\apps\cpu\audio\ladc.o
-LOAD obj\Release\apps\cpu\audio\pdm_link.o
-LOAD obj\Release\apps\cpu\audio\sin_tab.o
-LOAD obj\Release\apps\cpu\audio\src.o
-LOAD obj\Release\apps\cpu\audio\tone.o
-LOAD obj\Release\apps\cpu\board\board.o
-LOAD obj\Release\apps\cpu\board_init.o
-LOAD obj\Release\apps\cpu\clock.o
-LOAD obj\Release\apps\cpu\iic\iic.o
-LOAD obj\Release\apps\cpu\iic\iic_hw.o
-LOAD obj\Release\apps\cpu\iis\wm8978.o
-LOAD obj\Release\apps\cpu\irq.o
-LOAD obj\Release\apps\cpu\key_drv\key.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_ad_rtcvdd.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_ad_vddio.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_encoder.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_io.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_ir.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_tch.o
-LOAD obj\Release\apps\cpu\key_drv\key_drv_uart.o
-LOAD obj\Release\apps\cpu\led\led.o
-LOAD obj\Release\apps\cpu\led\pwm_led.o
-LOAD obj\Release\apps\cpu\power\charge.o
-LOAD obj\Release\apps\cpu\power\power.o
-LOAD obj\Release\apps\cpu\rotate_dec.o
-LOAD obj\Release\apps\cpu\spdif.o
-LOAD obj\Release\apps\cpu\timer.o
-LOAD obj\Release\apps\cpu\uart\uart.o
-LOAD obj\Release\apps\cpu\ui\lcd\lcd128X64.o
-LOAD obj\Release\apps\cpu\ui\lcd\lcd_disp.o
-LOAD obj\Release\apps\cpu\ui\lcd\lcd_drv_api.o
-LOAD obj\Release\apps\cpu\ui\lcd\lcd_drv_interface.o
-LOAD obj\Release\apps\cpu\ui\lcd\lcd_spi.o
-LOAD obj\Release\apps\cpu\ui\led\led7_drv.o
-LOAD obj\Release\apps\cpu\ui\led\led_1888_drv.o
-LOAD obj\Release\apps\cpu\ui\task_ui\bt_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\echo_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\fm_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\linein_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\music_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\pc_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\rec_ui.o
-LOAD obj\Release\apps\cpu\ui\task_ui\rtc_ui.o
-LOAD obj\Release\apps\cpu\ui\ui_api.o
-LOAD obj\Release\apps\cpu\ui\ui_common.o
-LOAD obj\Release\apps\cpu\updata.o
-LOAD obj\Release\apps\cpu\wdt.o
-LOAD obj\Release\apps\task_manager\task_bt\task_bt.o
-LOAD obj\Release\apps\task_manager\task_bt\task_bt_key.o
-LOAD obj\Release\apps\task_manager\task_common.o
-LOAD obj\Release\apps\task_manager\task_echo\task_echo.o
-LOAD obj\Release\apps\task_manager\task_echo\task_echo_key.o
-LOAD obj\Release\apps\task_manager\task_fm\bk1080\Bk1080.o
-LOAD obj\Release\apps\task_manager\task_fm\fm_api.o
-LOAD obj\Release\apps\task_manager\task_fm\fm_common.o
-LOAD obj\Release\apps\task_manager\task_fm\fm_inside\fm_inside.o
-LOAD obj\Release\apps\task_manager\task_fm\qn8035\QN8035.o
-LOAD obj\Release\apps\task_manager\task_fm\rda5807\RDA5807.o
-LOAD obj\Release\apps\task_manager\task_fm\task_fm.o
-LOAD obj\Release\apps\task_manager\task_fm\task_fm_key.o
-LOAD obj\Release\apps\task_manager\task_idle\task_idle.o
-LOAD obj\Release\apps\task_manager\task_idle\task_idle_key.o
-LOAD obj\Release\apps\task_manager\task_linein\task_linein.o
-LOAD obj\Release\apps\task_manager\task_linein\task_linein_key.o
-LOAD obj\Release\apps\task_manager\task_manager.o
-LOAD obj\Release\apps\task_manager\task_music\lyrics_api.o
-LOAD obj\Release\apps\task_manager\task_music\music_decrypt.o
-LOAD obj\Release\apps\task_manager\task_music\task_music.o
-LOAD obj\Release\apps\task_manager\task_music\task_music_key.o
-LOAD obj\Release\apps\task_manager\task_pc\task_pc.o
-LOAD obj\Release\apps\task_manager\task_pc\task_pc_key.o
-LOAD obj\Release\apps\task_manager\task_rec\task_rec.o
-LOAD obj\Release\apps\task_manager\task_rec\task_rec_key.o
-LOAD obj\Release\apps\task_manager\task_rtc\rtc_setting.o
-LOAD obj\Release\apps\task_manager\task_rtc\task_rtc.o
-LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
+LOAD obj/Release/apps/auto_test/auto_test.o
+LOAD C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+LOAD obj/Release/apps/ble_stack/user/att_send.o
+LOAD obj/Release/apps/ble_stack/user/le_client_module.o
+LOAD obj/Release/apps/ble_stack/user/le_server_module.o
+LOAD obj/Release/apps/btstack/trunk/aec_main.o
+LOAD obj/Release/apps/btstack/trunk/fcc_test.o
+LOAD obj/Release/apps/btstack/trunk/PLC_main.o
+LOAD obj/Release/apps/btstack/user/a2dp_decode.o
+LOAD obj/Release/apps/btstack/user/aec_user.o
+LOAD obj/Release/apps/btstack/user/bt_configs_user.o
+LOAD obj/Release/apps/btstack/user/bt_tws.o
+LOAD obj/Release/apps/common/audio_sync/sync_hardware.o
+LOAD obj/Release/apps/common/audio_sync/sync_software.o
+LOAD obj/Release/apps/common/audio_sync/sync_tws.o
+LOAD obj/Release/apps/common/common.o
+LOAD obj/Release/apps/common/dev_manage.o
+LOAD obj/Release/apps/common/echo/echo_api.o
+LOAD obj/Release/apps/common/file_operate/file_io.o
+LOAD obj/Release/apps/common/file_operate/file_operate.o
+LOAD obj/Release/apps/common/flash_api.o
+LOAD obj/Release/apps/common/fmtx/fmtx_api.o
+LOAD obj/Release/apps/common/fmtx/qn8007/qn8007.o
+LOAD obj/Release/apps/common/fmtx/qn8027/qn8027.o
+LOAD obj/Release/apps/common/fs/fs.o
+LOAD obj/Release/apps/common/msg.o
+LOAD obj/Release/apps/common/music_player/music_decoder.o
+LOAD obj/Release/apps/common/music_player/music_player.o
+LOAD obj/Release/apps/common/music_player/warning_tone.o
+LOAD obj/Release/apps/common/pc_device/card_reader_io.o
+LOAD obj/Release/apps/common/pc_device/dev_pc.o
+LOAD obj/Release/apps/common/pitchshifter/pitchshifter.o
+LOAD obj/Release/apps/common/record/rec_api.o
+LOAD obj/Release/apps/common/record/rec_file_op.o
+LOAD obj/Release/apps/common/record/rec_input.o
+LOAD obj/Release/apps/common/record/rec_output.o
+LOAD obj/Release/apps/common/record/rec_play.o
+LOAD obj/Release/apps/common/ui/font_api.o
+LOAD obj/Release/apps/common/ui/uicon_api.o
+LOAD obj/Release/apps/cpu/adc_api.o
+LOAD obj/Release/apps/cpu/audio/alink.o
+LOAD obj/Release/apps/cpu/audio/audio.o
+LOAD obj/Release/apps/cpu/audio/audio_stream.o
+LOAD obj/Release/apps/cpu/audio/dac.o
+LOAD obj/Release/apps/cpu/audio/digital_vol.o
+LOAD obj/Release/apps/cpu/audio/eq.o
+LOAD obj/Release/apps/cpu/audio/ladc.o
+LOAD obj/Release/apps/cpu/audio/pdm_link.o
+LOAD obj/Release/apps/cpu/audio/sin_tab.o
+LOAD obj/Release/apps/cpu/audio/src.o
+LOAD obj/Release/apps/cpu/audio/tone.o
+LOAD obj/Release/apps/cpu/board/board.o
+LOAD obj/Release/apps/cpu/board_init.o
+LOAD obj/Release/apps/cpu/clock.o
+LOAD obj/Release/apps/cpu/iic/iic.o
+LOAD obj/Release/apps/cpu/iic/iic_hw.o
+LOAD obj/Release/apps/cpu/iis/wm8978.o
+LOAD obj/Release/apps/cpu/irq.o
+LOAD obj/Release/apps/cpu/key_drv/key.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_ad_rtcvdd.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_ad_vddio.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_encoder.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_io.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_ir.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_tch.o
+LOAD obj/Release/apps/cpu/key_drv/key_drv_uart.o
+LOAD obj/Release/apps/cpu/led/led.o
+LOAD obj/Release/apps/cpu/led/pwm_led.o
+LOAD obj/Release/apps/cpu/power/charge.o
+LOAD obj/Release/apps/cpu/power/power.o
+LOAD obj/Release/apps/cpu/rotate_dec.o
+LOAD obj/Release/apps/cpu/spdif.o
+LOAD obj/Release/apps/cpu/timer.o
+LOAD obj/Release/apps/cpu/uart/uart.o
+LOAD obj/Release/apps/cpu/ui/lcd/lcd128X64.o
+LOAD obj/Release/apps/cpu/ui/lcd/lcd_disp.o
+LOAD obj/Release/apps/cpu/ui/lcd/lcd_drv_api.o
+LOAD obj/Release/apps/cpu/ui/lcd/lcd_drv_interface.o
+LOAD obj/Release/apps/cpu/ui/lcd/lcd_spi.o
+LOAD obj/Release/apps/cpu/ui/led/led7_drv.o
+LOAD obj/Release/apps/cpu/ui/led/led_1888_drv.o
+LOAD obj/Release/apps/cpu/ui/task_ui/bt_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/echo_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/fm_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/linein_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/music_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/pc_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/rec_ui.o
+LOAD obj/Release/apps/cpu/ui/task_ui/rtc_ui.o
+LOAD obj/Release/apps/cpu/ui/ui_api.o
+LOAD obj/Release/apps/cpu/ui/ui_common.o
+LOAD obj/Release/apps/cpu/updata.o
+LOAD obj/Release/apps/cpu/wdt.o
+LOAD obj/Release/apps/task_manager/task_bt/task_bt.o
+LOAD obj/Release/apps/task_manager/task_bt/task_bt_key.o
+LOAD obj/Release/apps/task_manager/task_common.o
+LOAD obj/Release/apps/task_manager/task_echo/task_echo.o
+LOAD obj/Release/apps/task_manager/task_echo/task_echo_key.o
+LOAD obj/Release/apps/task_manager/task_fm/bk1080/Bk1080.o
+LOAD obj/Release/apps/task_manager/task_fm/fm_api.o
+LOAD obj/Release/apps/task_manager/task_fm/fm_common.o
+LOAD obj/Release/apps/task_manager/task_fm/fm_inside/fm_inside.o
+LOAD obj/Release/apps/task_manager/task_fm/qn8035/QN8035.o
+LOAD obj/Release/apps/task_manager/task_fm/rda5807/RDA5807.o
+LOAD obj/Release/apps/task_manager/task_fm/task_fm.o
+LOAD obj/Release/apps/task_manager/task_fm/task_fm_key.o
+LOAD obj/Release/apps/task_manager/task_idle/task_idle.o
+LOAD obj/Release/apps/task_manager/task_idle/task_idle_key.o
+LOAD obj/Release/apps/task_manager/task_linein/task_linein.o
+LOAD obj/Release/apps/task_manager/task_linein/task_linein_key.o
+LOAD obj/Release/apps/task_manager/task_manager.o
+LOAD obj/Release/apps/task_manager/task_music/lyrics_api.o
+LOAD obj/Release/apps/task_manager/task_music/music_decrypt.o
+LOAD obj/Release/apps/task_manager/task_music/task_music.o
+LOAD obj/Release/apps/task_manager/task_music/task_music_key.o
+LOAD obj/Release/apps/task_manager/task_pc/task_pc.o
+LOAD obj/Release/apps/task_manager/task_pc/task_pc_key.o
+LOAD obj/Release/apps/task_manager/task_rec/task_rec.o
+LOAD obj/Release/apps/task_manager/task_rec/task_rec_key.o
+LOAD obj/Release/apps/task_manager/task_rtc/rtc_setting.o
+LOAD obj/Release/apps/task_manager/task_rtc/task_rtc.o
+LOAD obj/Release/apps/task_manager/task_rtc/task_rtc_key.o
                 0x00000100                . = ORIGIN (reserved_ram)
 
 .reserved_data  0x00000100       0x10
@@ -1391,168 +1376,143 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
  *fill*         0x00000100        0x4 
  *(.reserved_info)
  .reserved_info
-                0x00000104        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+                0x00000104        0xc C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 0x00000104                boot_arg_list
  *(.otp_info)
                 0x00000200                . = ORIGIN (ram0)
 
-.bss            0x00000200     0xf318
+.bss            0x00000200     0xbdd0
  *(.bss)
- .bss           0x00000200     0x4e00 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
- .bss           0x00005000        0x4 ../include_lib/periphy_lib.a(irq_driver_asm.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-memcmp.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-memcpy.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-memset.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strcasecmp.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strchr.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strcmp.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strcpy.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strlen.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strncmp.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libc.a(lib_a-strstr.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
- .bss           0x00005004        0x0 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
+ .bss           0x00000200     0x2658 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+ .bss           0x00002858        0x4 ../include_lib/periphy_lib.a(irq_driver_asm.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
+ .bss           0x0000285c        0x0 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
  *(.ram1_bss)
- .ram1_bss      0x00005004     0x2a11 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x00007908                power_hdl
+ .ram1_bss      0x0000285c     0x2a11 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x00005160                power_hdl
  *(.mask_ram0)
- *fill*         0x00007a15        0x3 
- .mask_ram0     0x00007a18       0x2c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x00007a44                bredr_base_addr = .
+ *fill*         0x0000526d        0x3 
+ .mask_ram0     0x00005270       0x2c C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000529c                bredr_base_addr = .
  *(.bt_classic_base)
  .bt_classic_base
-                0x00007a44     0x14a8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+                0x0000529c     0x14a8 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  *(.bt_sco_codec_data)
  .bt_sco_codec_data
-                0x00008eec      0x42c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+                0x00006744      0x42c C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  *(.bt_classic_data)
  .bt_classic_data
-                0x00009318      0x800 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+                0x00006b70      0x800 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  *(.bt_stack)
  *(.dac_buf_sec)
- .dac_buf_sec   0x00009b18     0x23a0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0000ae18                read_buf
-                0x0000b158                src_buffer
-                0x0000b5b8                src_cbuffer
+ .dac_buf_sec   0x00007370     0x23a0 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x00008670                read_buf
+                0x000089b0                src_buffer
+                0x00008e10                src_cbuffer
  *(.non_volatile_ram)
- .non_volatile_ram
-                0x0000beb8        0x4 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
  *(.ble_bb_ram)
- .ble_bb_ram    0x0000bebc      0xc1c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
  *(.ble_memory_pool)
  *(.bt_updata_data)
  *(.bt_lmp_mem)
- .bt_lmp_mem    0x0000cad8     0x2800 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .bt_lmp_mem    0x00009710     0x2800 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  *(.db_memory)
- .db_memory     0x0000f2d8      0x180 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
  *(.eq_buf_sec)
  *(.sd_buf)
- .sd_buf        0x0000f458       0x38 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0000f458                g_sd0_var_p
-                0x0000f45c                g_sd1_var_p
-                0x0000f460                sd0_cmd_buf
-                0x0000f478                sd1_cmd_buf
+ .sd_buf        0x0000bf10       0x38 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000bf10                g_sd0_var_p
+                0x0000bf14                g_sd1_var_p
+                0x0000bf18                sd0_cmd_buf
+                0x0000bf30                sd1_cmd_buf
  *(.usb_buf)
- .usb_buf       0x0000f490       0x5c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0000f490                USB_Bulk_only
-                0x0000f4d0                g_husb_read_ctl
-                0x0000f4d8                g_susb_dmabuf_p
-                0x0000f4dc                g_susb_var
-                0x0000f4e0                g_usb_detect_var
-                0x0000f4e8                g_usb_var_p
- COMMON         0x0000f4ec       0x2c ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o)
-                0x0000f4ec                wavheader
+ .usb_buf       0x0000bf48       0x5c C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000bf48                USB_Bulk_only
+                0x0000bf88                g_husb_read_ctl
+                0x0000bf90                g_susb_dmabuf_p
+                0x0000bf94                g_susb_var
+                0x0000bf98                g_usb_detect_var
+                0x0000bfa0                g_usb_var_p
+ COMMON         0x0000bfa4       0x2c ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o)
+                0x0000bfa4                wavheader
 
-.data           0x0000f520     0x12e4
-                0x0000f520                __begin_of_bank_overlay_0 = .
-                0x0000f520                . = ALIGN (0x4)
+.data           0x0000bfd0     0x110c
+                0x0000bfd0                __begin_of_bank_overlay_0 = .
+                0x0000bfd0                . = ALIGN (0x4)
  *(.data*)
- .data          0x0000f520      0x510 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
- .data          0x0000fa30        0x4 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
-                0x0000fa30                __ctype_ptr__
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-memcmp.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-memcpy.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-memset.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strcasecmp.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strchr.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strcmp.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strcpy.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strlen.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strncmp.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libc.a(lib_a-strstr.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
- .data          0x0000fa34        0x0 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
-                0x0000fa34                bredr_base_updata_ram1 = .
-                0x0000fa34                _bredr_nv_mem_begin = .
+ .data          0x0000bfd0      0x340 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+ .data          0x0000c310        0x4 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
+                0x0000c310                __ctype_ptr__
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
+ .data          0x0000c314        0x0 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
+                0x0000c314                bredr_base_updata_ram1 = .
+                0x0000c314                _bredr_nv_mem_begin = .
  *(.ram1_data)
- .ram1_data     0x0000fa34      0x13e C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0000fb72                _bredr_nv_mem_end = .
-                0x0000fb72                _ble_nv_mem_begin = .
+ .ram1_data     0x0000c314      0x13e C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000c452                _bredr_nv_mem_end = .
+                0x0000c452                _ble_nv_mem_begin = .
  *(.bt_nv_data)
-                0x0000fb72                _ble_nv_mem_end = .
+                0x0000c452                _ble_nv_mem_end = .
  *(.powerdown_text)
- *fill*         0x0000fb72        0x2 
+ *fill*         0x0000c452        0x2 
  .powerdown_text
-                0x0000fb74      0x488 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0000fb94                OTP_CONTROL
-                0x0000ffc0                hw_cache_idle
-                0x0000ffd8                hw_cache_run
-                0x0000ffe4                use_rc_clk
+                0x0000c454      0x484 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000c474                OTP_CONTROL
+                0x0000c89c                hw_cache_idle
+                0x0000c8b4                hw_cache_run
+                0x0000c8c0                use_rc_clk
  *(.common)
- .common        0x0000fffc      0x228 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x000100e8                irq_common_handler
-                0x000101b0                RTC_SFR_SET
-                0x000101d8                adc_mux_ch_set
-                0x000101e2                set_apc_clk
- .common        0x00010224       0x26 ../include_lib/periphy_lib.a(irq_driver_asm.o)
-                0x00010224                CPU_INT_DIS
-                0x00010236                CPU_INT_EN
+ .common        0x0000c8d8      0x224 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000c9c0                irq_common_handler
+                0x0000ca88                RTC_SFR_SET
+                0x0000cab0                adc_mux_ch_set
+                0x0000caba                set_apc_clk
+ .common        0x0000cafc       0x26 ../include_lib/periphy_lib.a(irq_driver_asm.o)
+                0x0000cafc                CPU_INT_DIS
+                0x0000cb0e                CPU_INT_EN
  *(.fm_code)
- *fill*         0x0001024a        0x2 
- .fm_code       0x0001024c       0x70 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0001024c                fmhw_isr
- .fm_code       0x000102bc      0x548 ../include_lib/fm_lib.a(fm_dem.o)
-                0x000102bc                fm_dem
-                0x00010804                _system_cfg_begin = .
+ *fill*         0x0000cb22        0x2 
+ .fm_code       0x0000cb24       0x70 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x0000cb24                fmhw_isr
+ .fm_code       0x0000cb94      0x548 ../include_lib/fm_lib.a(fm_dem.o)
+                0x0000cb94                fm_dem
+                0x0000d0dc                _system_cfg_begin = .
  *(.system_cfg)
-                0x00010804                _system_cfg_end = .
-                0x00010804                __end_of_bank_overlay_0 = .
+                0x0000d0dc                _system_cfg_end = .
+                0x0000d0dc                __end_of_bank_overlay_0 = .
                 0x00000200                RAM_BEGIN_ADDR = ORIGIN (ram0)
-                0x00010804                RAM_END_ADDR = .
-                0x00010604                ram_end = (. - ORIGIN (ram0))
+                0x0000d0dc                RAM_END_ADDR = .
+                0x0000cedc                ram_end = (. - ORIGIN (ram0))
                 0x00021b88                memcpy = 0x21b88
                 0x00021b88                all_memcpy = 0x21b88
                 0x00021b88                memmove = 0x21b88
@@ -1564,9 +1524,9 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
                 [!provide]                PROVIDE (__load_start_overlay_bt, LOADADDR (.overlay_bt))
                 [!provide]                PROVIDE (__load_stop_overlay_bt, (LOADADDR (.overlay_bt) + SIZEOF (.overlay_bt)))
 
-.overlay_music  0x00011000     0x2034
+.overlay_music  0x00011000     0x2034 load address 0x00100000
  *(.fs_fat)
- .fs_fat        0x00011000     0x2034 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .fs_fat        0x00011000     0x2034 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 0x00011000                g_fat_f
                 0x000115c0                g_fat_f_lrc
                 0x00011b80                g_fat_fs
@@ -1575,25 +1535,25 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
                 [!provide]                PROVIDE (__load_start_overlay_music, LOADADDR (.overlay_music))
                 [!provide]                PROVIDE (__load_stop_overlay_music, (LOADADDR (.overlay_music) + SIZEOF (.overlay_music)))
 
-.overlay_fm     0x00011000     0x151c load address 0x00013034
+.overlay_fm     0x00011000     0x151c load address 0x00102034
  *(.fm_mem)
- .fm_mem        0x00011000     0x151c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .fm_mem        0x00011000     0x151c C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 0x00011030                fm_inside_dat
                 [!provide]                PROVIDE (__load_start_overlay_fm, LOADADDR (.overlay_fm))
                 [!provide]                PROVIDE (__load_stop_overlay_fm, (LOADADDR (.overlay_fm) + SIZEOF (.overlay_fm)))
 
-.overlay_pc     0x00011000     0x1634 load address 0x00014550
+.overlay_pc     0x00011000     0x1634 load address 0x00103550
  *(.pc_mem)
- .pc_mem        0x00011000     0x1634 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .pc_mem        0x00011000     0x1634 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 [!provide]                PROVIDE (__load_start_overlay_pc, LOADADDR (.overlay_pc))
                 [!provide]                PROVIDE (__load_stop_overlay_pc, (LOADADDR (.overlay_pc) + SIZEOF (.overlay_pc)))
 
-.overlay_rtc    0x00011000        0x0
+.overlay_rtc    0x00011000        0x0 load address 0x00104b84
                 [!provide]                PROVIDE (__load_start_overlay_rtc, LOADADDR (.overlay_rtc))
                 [!provide]                PROVIDE (__load_stop_overlay_rtc, (LOADADDR (.overlay_rtc) + SIZEOF (.overlay_rtc)))
 
 .overlay_linein
-                0x00011000        0x0
+                0x00011000        0x0 load address 0x00104b84
                 [!provide]                PROVIDE (__load_start_overlay_linein, LOADADDR (.overlay_linein))
                 [!provide]                PROVIDE (__load_stop_overlay_linein, (LOADADDR (.overlay_linein) + SIZEOF (.overlay_linein)))
                 0x00011000                overlay_task_begin = ORIGIN (overlay_task)
@@ -1601,9 +1561,9 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
 
 .overlay1       0x00013080     0x4d80 load address 0x00200000
  *(.bt_sbc)
- .bt_sbc        0x00013080     0x3980 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .bt_sbc        0x00013080     0x3980 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  *(.bt_sbc_dec)
- .bt_sbc_dec    0x00016a00     0x1400 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .bt_sbc_dec    0x00016a00     0x1400 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 0x00016a00                sbc_decode_ram
  *(.music_sbc_dec)
  *(.tws_sync_buf_sec)
@@ -1612,27 +1572,27 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
 
 .overlay2       0x00013080     0x5804 load address 0x00204d80
  *(.bt_aec)
- .bt_aec        0x00013080     0x5804 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .bt_aec        0x00013080     0x5804 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 [!provide]                PROVIDE (__load_start_overlay2, LOADADDR (.overlay2))
                 [!provide]                PROVIDE (__load_stop_overlay2, (LOADADDR (.overlay2) + SIZEOF (.overlay2)))
 
 .overlay3       0x00013080      0x210 load address 0x0020a584
  *(.bt_updata)
- .bt_updata     0x00013080      0x210 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .bt_updata     0x00013080      0x210 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 [!provide]                PROVIDE (__load_start_overlay3, LOADADDR (.overlay3))
                 [!provide]                PROVIDE (__load_stop_overlay3, (LOADADDR (.overlay3) + SIZEOF (.overlay3)))
 
 .overlay4       0x00013080     0x7008 load address 0x0020a794
  *(.music_mem)
- .music_mem     0x00013080        0x8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .music_mem     0x00013080        0x8 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  *(.fs_syd)
  *(.music_mp3_dec)
  .music_mp3_dec
-                0x00013088     0x7000 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+                0x00013088     0x7000 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 [!provide]                PROVIDE (__load_start_overlay4, LOADADDR (.overlay4))
                 [!provide]                PROVIDE (__load_stop_overlay4, (LOADADDR (.overlay4) + SIZEOF (.overlay4)))
 
-.overlay5       0x00013080        0x0
+.overlay5       0x00013080        0x0 load address 0x0021179c
  *(.rec_mem_pool)
  *(.rec_fat)
                 [!provide]                PROVIDE (__load_start_overlay5, LOADADDR (.overlay5))
@@ -1648,13 +1608,13 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
                 0x0001bf00                STACK_END = .
                 0x01000000                . = ORIGIN (code0)
 
-.text           0x01000000    0x56a04
+.text           0x01000000    0x49ba4
  *startup.o(.text)
  .text          0x01000000       0xb8 ../include_lib/periphy_lib.a(startup.o)
                 0x01000000                _start
                 0x0100008a                the_exception_isr
  *(.const_tab)
- .const_tab     0x010000b8        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+ .const_tab     0x010000b8        0xc C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
                 0x010000b8                enc_ops_list
  *(.ver_magic)
  *(.version)
@@ -1664,346 +1624,347 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
  .version       0x010000ff       0x14 ../include_lib/bluetooth/msbc_enc_dec.a(version.o)
  *(.text* .rodata*)
  *fill*         0x01000113        0x1 
- .text          0x01000114    0x47adc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01009770                stack_detect_init
-                0x0100f2fc                main
-                0x0100f3e4                exception_isr_handler
-                0x0100f514                app_irq_init
-                0x01039776                sbc_crc8_u
-                0x01039fc4                sbc_fill_buf_u
+ .text          0x01000114    0x3b948 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010062f4                stack_detect_init
+                0x0100bec0                main
+                0x0100bfa8                exception_isr_handler
+                0x0100c0d8                app_irq_init
+                0x0102ea26                sbc_crc8_u
+                0x0102f274                sbc_fill_buf_u
  .rodata.str1.1
-                0x01047bf0     0x2754 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                               0x2830 (size before relaxing)
- *fill*         0x0104a344        0xc 
- .rodata        0x0104a350     0x889c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0104e99c                sbc_proto4_m0
-                0x0104e9ec                sbc_proto4_m1
-                0x0104ea3c                sbc_proto8_m0
-                0x0104eadc                sbc_proto8_m1
-                0x0104eb7c                syn_matrix4
-                0x0104ebfc                syn_matrix8
-                0x0104edfc                sbc_div_new_table
- .rodata.cst32  0x01052bec      0x100 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
- .rodata.cst8   0x01052cec       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
- .rodata.cst16  0x01052d04       0xa0 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
- .rodata.cst4   0x01052da4        0xc C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
+                0x0103ba5c     0x238b C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                               0x243f (size before relaxing)
+ *fill*         0x0103dde7        0x9 
+ .rodata        0x0103ddf0     0x7fd8 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01041bfc                sbc_proto4_m0
+                0x01041c4c                sbc_proto4_m1
+                0x01041c9c                sbc_proto8_m0
+                0x01041d3c                sbc_proto8_m1
+                0x01041ddc                syn_matrix4
+                0x01041e5c                syn_matrix8
+                0x0104205c                sbc_div_new_table
+ .rodata.cst32  0x01045dc8      0x100 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+ .rodata.cst8   0x01045ec8       0x18 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+ .rodata.cst16  0x01045ee0       0x90 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+ .rodata.cst4   0x01045f70        0xc C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
  .rodata.str4.4
-                0x01052db0      0x100 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
- .text          0x01052eb0       0xb2 ../include_lib/bluetooth_lib.a(bigint_mul_core_bc51.o)
-                0x01052eb0                _bigint_mul_core_bc51
- *fill*         0x01052f62        0x2 
- .text          0x01052f64        0x0 ../include_lib/bluetooth_lib.a(version.o)
- .text          0x01052f64        0x0 ../include_lib/bluetooth/aes_lib_pi32.a(version.o)
- .text          0x01052f64        0x0 ../include_lib/bluetooth/crc_ibm_lib.a(version.o)
- .text          0x01052f64      0x1e0 ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o)
-                0x01052f64                msbc_get_bits
-                0x01052fac                msbc_dec_loop
- .text          0x01053144      0x14e ../include_lib/bluetooth/msbc_enc_dec.a(msbc_fun.o)
-                0x01053144                sbc_analyze_eight_simd
-                0x010531aa                msbc_synthesize_eight
- *fill*         0x01053292        0x2 
- .text          0x01053294       0x88 ../include_lib/bluetooth/msbc_enc_dec.a(mtst_sbc.o)
-                0x01053294                need_msbce_size
-                0x0105329a                msbce_init
-                0x01053304                msbce_run
-                0x01053308                msbcd_run
-                0x01053314                get_msbc_ops
- .rodata        0x0105331c       0x10 ../include_lib/bluetooth/msbc_enc_dec.a(mtst_sbc.o)
-                0x0105331c                msbc_enc_dec_ops
- .text          0x0105332c      0x35a ../include_lib/bluetooth/msbc_enc_dec.a(sbc_core.o)
-                0x0105332c                sbc_calculate_bits
-                0x0105346c                sbc_analyze_audio
-                0x010534d4                PUT_BITS
-                0x01053506                FLUSH_BITS
-                0x0105352e                msbc_pack_frame
- *fill*         0x01053686        0x2 
- .rodata        0x01053688       0x20 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_core.o)
-                0x01053688                sbc_offset8_16k
- .text          0x010536a8       0x6e ../include_lib/bluetooth/msbc_enc_dec.a(sbc_enc.o)
-                0x010536a8                msbc_enc_loop
- *fill*         0x01053716        0x2 
- .text          0x01053718      0x13c ../include_lib/bluetooth/msbc_enc_dec.a(sbc_primitives.o)
-                0x01053718                sbc_enco_input_s8
-                0x01053836                msbc_synthesize_audio
- .rodata        0x01053854       0x40 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_primitives.o)
-                0x01053854                input8_idx
- .text          0x01053894        0x0 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_tables.o)
- .rodata        0x01053894      0x480 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_tables.o)
-                0x01053894                analysis_consts_fixed8_simd_even
-                0x01053ad4                analysis_consts_fixed8_simd_odd
- .text          0x01053d14        0x0 ../include_lib/bluetooth/msbc_enc_dec.a(version.o)
- .text          0x01053d14        0x0 ../include_lib/periphy_lib.a(irq_driver_asm.o)
- .text          0x01053d14      0x1e0 ../include_lib/aec/libBtCalling.a(rfft_afterprocess_asm.o)
-                0x01053d14                rfft_afterprocess_asm
-                0x01053e02                rifft_preprocess_asm
- .text          0x01053ef4      0x32a ../include_lib/dec/sbc_dec_lib.a(sbc_fun.o)
-                0x01053ef4                sbc_synthesize_four_u
-                0x01053fe2                sbc_synthesize_eight_u
-                0x010540c8                get_dec_bits_u
-                0x01054116                sbc_dec_requantize
- *fill*         0x0105421e        0x2 
- .text          0x01054220       0x90 ../include_lib/dec/mp3_dec_lib.a(mp3_asm_subfun.o)
-                0x01054220                III_freqinver_asm
-                0x01054236                III_overlap_asm
-                0x01054262                imdct36_sub_asm
- .text          0x010542b0        0x0 ../include_lib/fm_lib.a(fm_dem.o)
- .text          0x010542b0        0x0 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
- .rodata        0x010542b0      0x281 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
-                0x01054430                _ctype_
- *fill*         0x01054531        0x3 
- .text          0x01054534       0x3e C:\JL\pi32\lib\libc.a(lib_a-memcmp.o)
- *fill*         0x01054572        0x2 
- .text          0x01054574      0x11e C:\JL\pi32\lib\libc.a(lib_a-memcpy.o)
- *fill*         0x01054692        0x2 
- .text          0x01054694       0x48 C:\JL\pi32\lib\libc.a(lib_a-memset.o)
- .text          0x010546dc       0x44 C:\JL\pi32\lib\libc.a(lib_a-strcasecmp.o)
-                0x010546dc                strcasecmp
- .text          0x01054720       0x16 C:\JL\pi32\lib\libc.a(lib_a-strchr.o)
-                0x01054720                strchr
- *fill*         0x01054736        0x2 
- .text          0x01054738       0x14 C:\JL\pi32\lib\libc.a(lib_a-strcmp.o)
-                0x01054738                strcmp
- .text          0x0105474c       0x10 C:\JL\pi32\lib\libc.a(lib_a-strcpy.o)
-                0x0105474c                strcpy
- .text          0x0105475c        0xc C:\JL\pi32\lib\libc.a(lib_a-strlen.o)
-                0x0105475c                strlen
- .text          0x01054768       0x24 C:\JL\pi32\lib\libc.a(lib_a-strncmp.o)
-                0x01054768                strncmp
- .text          0x0105478c       0x2e C:\JL\pi32\lib\libc.a(lib_a-strstr.o)
-                0x0105478c                strstr
- *fill*         0x010547ba        0x2 
- .text          0x010547bc       0x10 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
-                0x010547bc                __lshrdi3
- .text          0x010547cc       0x10 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
-                0x010547cc                __ashldi3
- .text          0x010547dc      0x33c C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
-                0x010547dc                __divdf3
- .text          0x01054b18       0x32 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
-                0x01054b18                __divdi3
- *fill*         0x01054b4a        0x2 
- .text          0x01054b4c      0x180 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
-                0x01054b4c                __divsf3
- .text          0x01054ccc       0x50 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
-                0x01054ccc                __fixdfsi
- .text          0x01054d1c       0x4c C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
-                0x01054d1c                __fixsfsi
- .text          0x01054d68       0x40 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
-                0x01054d68                __floatsidf
- .text          0x01054da8       0x62 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
-                0x01054da8                __floatsisf
- *fill*         0x01054e0a        0x2 
- .text          0x01054e0c       0x30 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
-                0x01054e0c                __floatunsidf
- .text          0x01054e3c       0x56 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
-                0x01054e3c                __floatunsisf
- *fill*         0x01054e92        0x2 
- .text          0x01054e94      0x2d0 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
-                0x01054e94                __muldf3
- .text          0x01055164       0x12 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
-                0x01055164                __muldi3
- *fill*         0x01055176        0x2 
- .text          0x01055178        0x8 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
-                0x01055178                __subdf3
- .text          0x01055180       0x10 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
-                0x01055180                __udivdi3
- .text          0x01055190       0x8e C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
-                0x01055190                __udivmoddi4
- *fill*         0x0105521e        0x2 
- .text          0x01055220       0x14 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
-                0x01055220                __umoddi3
- .text          0x01055234      0x344 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
-                0x01055234                __adddf3
-                0x01055578                . = ALIGN (0x4)
-                0x01055578                _LOAD_CACHE_START = .
-                0x01055578                _VM_CODE_START = .
+                0x01045f7c      0x100 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+ .text          0x0104607c       0xb2 ../include_lib/bluetooth_lib.a(bigint_mul_core_bc51.o)
+                0x0104607c                _bigint_mul_core_bc51
+ *fill*         0x0104612e        0x2 
+ .text          0x01046130        0x0 ../include_lib/bluetooth_lib.a(version.o)
+ .text          0x01046130        0x0 ../include_lib/bluetooth/aes_lib_pi32.a(version.o)
+ .text          0x01046130        0x0 ../include_lib/bluetooth/crc_ibm_lib.a(version.o)
+ .text          0x01046130      0x1e0 ../include_lib/bluetooth/msbc_enc_dec.a(msbc_dec.o)
+                0x01046130                msbc_get_bits
+                0x01046178                msbc_dec_loop
+ .text          0x01046310      0x14e ../include_lib/bluetooth/msbc_enc_dec.a(msbc_fun.o)
+                0x01046310                sbc_analyze_eight_simd
+                0x01046376                msbc_synthesize_eight
+ *fill*         0x0104645e        0x2 
+ .text          0x01046460       0x88 ../include_lib/bluetooth/msbc_enc_dec.a(mtst_sbc.o)
+                0x01046460                need_msbce_size
+                0x01046466                msbce_init
+                0x010464d0                msbce_run
+                0x010464d4                msbcd_run
+                0x010464e0                get_msbc_ops
+ .rodata        0x010464e8       0x10 ../include_lib/bluetooth/msbc_enc_dec.a(mtst_sbc.o)
+                0x010464e8                msbc_enc_dec_ops
+ .text          0x010464f8      0x35a ../include_lib/bluetooth/msbc_enc_dec.a(sbc_core.o)
+                0x010464f8                sbc_calculate_bits
+                0x01046638                sbc_analyze_audio
+                0x010466a0                PUT_BITS
+                0x010466d2                FLUSH_BITS
+                0x010466fa                msbc_pack_frame
+ *fill*         0x01046852        0x2 
+ .rodata        0x01046854       0x20 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_core.o)
+                0x01046854                sbc_offset8_16k
+ .text          0x01046874       0x6e ../include_lib/bluetooth/msbc_enc_dec.a(sbc_enc.o)
+                0x01046874                msbc_enc_loop
+ *fill*         0x010468e2        0x2 
+ .text          0x010468e4      0x13c ../include_lib/bluetooth/msbc_enc_dec.a(sbc_primitives.o)
+                0x010468e4                sbc_enco_input_s8
+                0x01046a02                msbc_synthesize_audio
+ .rodata        0x01046a20       0x40 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_primitives.o)
+                0x01046a20                input8_idx
+ .text          0x01046a60        0x0 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_tables.o)
+ .rodata        0x01046a60      0x480 ../include_lib/bluetooth/msbc_enc_dec.a(sbc_tables.o)
+                0x01046a60                analysis_consts_fixed8_simd_even
+                0x01046ca0                analysis_consts_fixed8_simd_odd
+ .text          0x01046ee0        0x0 ../include_lib/bluetooth/msbc_enc_dec.a(version.o)
+ .text          0x01046ee0        0x0 ../include_lib/periphy_lib.a(irq_driver_asm.o)
+ .text          0x01046ee0      0x1e0 ../include_lib/aec/libBtCalling.a(rfft_afterprocess_asm.o)
+                0x01046ee0                rfft_afterprocess_asm
+                0x01046fce                rifft_preprocess_asm
+ .text          0x010470c0      0x32a ../include_lib/dec/sbc_dec_lib.a(sbc_fun.o)
+                0x010470c0                sbc_synthesize_four_u
+                0x010471ae                sbc_synthesize_eight_u
+                0x01047294                get_dec_bits_u
+                0x010472e2                sbc_dec_requantize
+ *fill*         0x010473ea        0x2 
+ .text          0x010473ec       0x90 ../include_lib/dec/mp3_dec_lib.a(mp3_asm_subfun.o)
+                0x010473ec                III_freqinver_asm
+                0x01047402                III_overlap_asm
+                0x0104742e                imdct36_sub_asm
+ .text          0x0104747c        0x0 ../include_lib/fm_lib.a(fm_dem.o)
+ .text          0x0104747c        0x0 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
+ .rodata        0x0104747c      0x281 C:\JL\pi32\lib\libc.a(lib_a-ctype_.o)
+                0x010475fc                _ctype_
+ *fill*         0x010476fd        0x3 
+ .text          0x01047700       0x3e C:\JL\pi32\lib\libc.a(lib_a-memcmp.o)
+ *fill*         0x0104773e        0x2 
+ .text          0x01047740      0x11a C:\JL\pi32\lib\libc.a(lib_a-memcpy.o)
+ *fill*         0x0104785a        0x2 
+ .text          0x0104785c       0x48 C:\JL\pi32\lib\libc.a(lib_a-memset.o)
+ .text          0x010478a4       0x44 C:\JL\pi32\lib\libc.a(lib_a-strcasecmp.o)
+                0x010478a4                strcasecmp
+ .text          0x010478e8       0x16 C:\JL\pi32\lib\libc.a(lib_a-strchr.o)
+                0x010478e8                strchr
+ *fill*         0x010478fe        0x2 
+ .text          0x01047900       0x16 C:\JL\pi32\lib\libc.a(lib_a-strcmp.o)
+                0x01047900                strcmp
+ *fill*         0x01047916        0x2 
+ .text          0x01047918       0x10 C:\JL\pi32\lib\libc.a(lib_a-strcpy.o)
+                0x01047918                strcpy
+ .text          0x01047928        0xc C:\JL\pi32\lib\libc.a(lib_a-strlen.o)
+                0x01047928                strlen
+ .text          0x01047934       0x22 C:\JL\pi32\lib\libc.a(lib_a-strncmp.o)
+                0x01047934                strncmp
+ *fill*         0x01047956        0x2 
+ .text          0x01047958       0x2a C:\JL\pi32\lib\libc.a(lib_a-strstr.o)
+                0x01047958                strstr
+ *fill*         0x01047982        0x2 
+ .text          0x01047984       0x10 C:\JL\pi32\lib\libcompiler-rt.a(lshrdi3.o)
+                0x01047984                __lshrdi3
+ .text          0x01047994       0x10 C:\JL\pi32\lib\libcompiler-rt.a(ashldi3.o)
+                0x01047994                __ashldi3
+ .text          0x010479a4      0x33c C:\JL\pi32\lib\libcompiler-rt.a(divdf3.o)
+                0x010479a4                __divdf3
+ .text          0x01047ce0       0x32 C:\JL\pi32\lib\libcompiler-rt.a(divdi3.o)
+                0x01047ce0                __divdi3
+ *fill*         0x01047d12        0x2 
+ .text          0x01047d14      0x180 C:\JL\pi32\lib\libcompiler-rt.a(divsf3.o)
+                0x01047d14                __divsf3
+ .text          0x01047e94       0x50 C:\JL\pi32\lib\libcompiler-rt.a(fixdfsi.o)
+                0x01047e94                __fixdfsi
+ .text          0x01047ee4       0x4c C:\JL\pi32\lib\libcompiler-rt.a(fixsfsi.o)
+                0x01047ee4                __fixsfsi
+ .text          0x01047f30       0x40 C:\JL\pi32\lib\libcompiler-rt.a(floatsidf.o)
+                0x01047f30                __floatsidf
+ .text          0x01047f70       0x62 C:\JL\pi32\lib\libcompiler-rt.a(floatsisf.o)
+                0x01047f70                __floatsisf
+ *fill*         0x01047fd2        0x2 
+ .text          0x01047fd4       0x30 C:\JL\pi32\lib\libcompiler-rt.a(floatunsidf.o)
+                0x01047fd4                __floatunsidf
+ .text          0x01048004       0x56 C:\JL\pi32\lib\libcompiler-rt.a(floatunsisf.o)
+                0x01048004                __floatunsisf
+ *fill*         0x0104805a        0x2 
+ .text          0x0104805c      0x2d0 C:\JL\pi32\lib\libcompiler-rt.a(muldf3.o)
+                0x0104805c                __muldf3
+ .text          0x0104832c       0x12 C:\JL\pi32\lib\libcompiler-rt.a(muldi3.o)
+                0x0104832c                __muldi3
+ *fill*         0x0104833e        0x2 
+ .text          0x01048340        0x8 C:\JL\pi32\lib\libcompiler-rt.a(subdf3.o)
+                0x01048340                __subdf3
+ .text          0x01048348       0x10 C:\JL\pi32\lib\libcompiler-rt.a(udivdi3.o)
+                0x01048348                __udivdi3
+ .text          0x01048358       0x8e C:\JL\pi32\lib\libcompiler-rt.a(udivmoddi4.o)
+                0x01048358                __udivmoddi4
+ *fill*         0x010483e6        0x2 
+ .text          0x010483e8       0x14 C:\JL\pi32\lib\libcompiler-rt.a(umoddi3.o)
+                0x010483e8                __umoddi3
+ .text          0x010483fc      0x344 C:\JL\pi32\lib\libcompiler-rt.a(adddf3.o)
+                0x010483fc                __adddf3
+                0x01048740                . = ALIGN (0x4)
+                0x01048740                _LOAD_CACHE_START = .
+                0x01048740                _VM_CODE_START = .
  *(.vm)
- .vm            0x01055578      0x550 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010555d8                spiflash_continuous_read_mode_reset
-                0x0105567c                spiflash_send_addr
-                0x01055710                spiflash_wait_ok
-                0x01055738                spiflash_write
-                0x010557fc                spiflash_recover_continuous_read_mode
-                0x01055900                spiflash_eraser
-                0x010559ae                vm_bytecmp
-                0x01055a24                spiflash_send_write_enable
-                0x01055ac8                _VM_CODE_END = .
-                0x01055ac8                _AUDIO_CODE_START = .
+ .vm            0x01048740      0x550 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010487a0                spiflash_continuous_read_mode_reset
+                0x01048844                spiflash_send_addr
+                0x010488d8                spiflash_wait_ok
+                0x01048900                spiflash_write
+                0x010489c4                spiflash_recover_continuous_read_mode
+                0x01048ac8                spiflash_eraser
+                0x01048b76                vm_bytecmp
+                0x01048bec                spiflash_send_write_enable
+                0x01048c90                _VM_CODE_END = .
+                0x01048c90                _AUDIO_CODE_START = .
  *(.audio_text)
- .audio_text    0x01055ac8      0x64c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01055ac8                cbuf_read
-                0x01055b36                abs
-                0x01055b3e                cbuf_is_write_able
-                0x01055bc4                audio_read
-                0x01055bd4                audio_read_vm
-                0x01055c34                dac_different_output
-                0x01055c66                dac_hp_en
-                0x01055c78                dac_digit_energy_value
-                0x01055cd4                digital_vol_ctrl
-                0x01055dd0                eq_run
-                0x01055e00                dac_isr_cb
-                0x01055f5c                is_dac_mute
-                0x01055f6c                dac_digital_lr_add
-                0x01055f90                dac_digital_lr_sub
-                0x01056030                irq_audio_isr
-                0x01056078                eq_drv_run
-                0x01056114                _AUDIO_CODE_END = .
-                0x01056114                _LOAD_CACHE_END = .
-                0x01056114                . = ALIGN (0x4)
-                0x01056114                sys_critical_handler_begin = .
+ .audio_text    0x01048c90      0x630 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01048c90                cbuf_read
+                0x01048cfe                abs
+                0x01048d06                cbuf_is_write_able
+                0x01048d8c                audio_read
+                0x01048d98                audio_read_vm
+                0x01048dec                dac_different_output
+                0x01048e1e                dac_hp_en
+                0x01048e30                dac_digit_energy_value
+                0x01048e8c                digital_vol_ctrl
+                0x01048f7c                eq_run
+                0x01048fac                dac_isr_cb
+                0x01049108                is_dac_mute
+                0x01049118                dac_digital_lr_add
+                0x0104913c                dac_digital_lr_sub
+                0x010491dc                irq_audio_isr
+                0x01049224                eq_drv_run
+                0x010492c0                _AUDIO_CODE_END = .
+                0x010492c0                _LOAD_CACHE_END = .
+                0x010492c0                . = ALIGN (0x4)
+                0x010492c0                sys_critical_handler_begin = .
  *(.sys_critical_txt)
-                0x01056114                sys_critical_handler_end = .
-                0x01056114                lmp_hci_handler_begin = .
+                0x010492c0                sys_critical_handler_end = .
+                0x010492c0                lmp_hci_handler_begin = .
  *(.lmp_hci_handler)
  .lmp_hci_handler
-                0x01056114       0x48 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056114                device_manager_hci_handler
-                0x0105612c                lmp_def_hci_handler
-                0x01056144                slave_hci_cmd_handler
-                0x0105615c                lmp_hci_handler_end = .
-                0x0105615c                a2dp_sink_media_probe_begin = .
+                0x010492c0       0x48 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010492c0                device_manager_hci_handler
+                0x010492d8                lmp_def_hci_handler
+                0x010492f0                slave_hci_cmd_handler
+                0x01049308                lmp_hci_handler_end = .
+                0x01049308                a2dp_sink_media_probe_begin = .
  *(.a2dp_sink_media_probe)
  .a2dp_sink_media_probe
-                0x0105615c       0x20 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0105615c                a2dp_sbc_probe
-                0x0105617c                a2dp_sink_media_probe_end = .
-                0x0105617c                a2dp_sink_media_codec_begin = .
+                0x01049308       0x20 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049308                a2dp_sbc_probe
+                0x01049328                a2dp_sink_media_probe_end = .
+                0x01049328                a2dp_sink_media_codec_begin = .
  *(.a2dp_sink_media_codec)
  .a2dp_sink_media_codec
-                0x0105617c       0x30 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x0105617c                aac_sink_codec
-                0x01056194                sbc_sink_codec
-                0x010561ac                a2dp_sink_media_codec_end = .
-                0x010561ac                a2dp_source_media_codec_begin = .
+                0x01049328       0x30 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049328                aac_sink_codec
+                0x01049340                sbc_sink_codec
+                0x01049358                a2dp_sink_media_codec_end = .
+                0x01049358                a2dp_source_media_codec_begin = .
  *(.a2dp_source_media_codec)
  .a2dp_source_media_codec
-                0x010561ac       0x18 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010561ac                a2dp_source_codec
-                0x010561c4                a2dp_source_media_codec_end = .
-                0x010561c4                a2dp_event_handler_begin = .
+                0x01049358       0x18 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049358                a2dp_source_codec
+                0x01049370                a2dp_source_media_codec_end = .
+                0x01049370                a2dp_event_handler_begin = .
  *(.a2dp_event_handler)
  .a2dp_event_handler
-                0x010561c4       0x70 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010561c4                a2dp_source_event_handler
-                0x010561e0                avctp_a2dp_event_handler
-                0x010561fc                a2dp_sink_event_handler
-                0x01056218                probe_source_event_handler
-                0x01056234                a2dp_event_handler_end = .
-                0x01056234                loop_detect_handler_begin = .
+                0x01049370       0x70 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049370                a2dp_source_event_handler
+                0x0104938c                avctp_a2dp_event_handler
+                0x010493a8                a2dp_sink_event_handler
+                0x010493c4                probe_source_event_handler
+                0x010493e0                a2dp_event_handler_end = .
+                0x010493e0                loop_detect_handler_begin = .
  *(.loop_detect_region)
  .loop_detect_region
-                0x01056234       0x78 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056234                delay_2m_cnt
-                0x0105623c                stack_detect
-                0x01056244                device_detect_loop
-                0x0105624c                half_second_det
-                0x01056254                pc_detect_loop
-                0x0105625c                adc_scan_detect
-                0x01056264                dac_delay
-                0x0105626c                dac_fade_loop
-                0x01056274                key_scan_det
-                0x0105627c                ir_timeout_detect
-                0x01056284                battery_detect
-                0x0105628c                ui_run_loop
-                0x01056294                power_on_cnt_detect
-                0x0105629c                aux_detect_loop
-                0x010562a4                sys_timer_handler
-                0x010562ac                loop_detect_handler_end = .
-                0x010562ac                loop_ui_handler_begin = .
+                0x010493e0       0x70 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010493e0                delay_2m_cnt
+                0x010493e8                stack_detect
+                0x010493f0                device_detect_loop
+                0x010493f8                half_second_det
+                0x01049400                pc_detect_loop
+                0x01049408                adc_scan_detect
+                0x01049410                dac_delay
+                0x01049418                dac_fade_loop
+                0x01049420                key_scan_det
+                0x01049428                battery_detect
+                0x01049430                ui_run_loop
+                0x01049438                power_on_cnt_detect
+                0x01049440                aux_detect_loop
+                0x01049448                sys_timer_handler
+                0x01049450                loop_detect_handler_end = .
+                0x01049450                loop_ui_handler_begin = .
  *(.loop_ui_region)
  .loop_ui_region
-                0x010562ac       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010562ac                led_detect
-                0x010562b4                led7_scan_loop
-                0x010562bc                loop_ui_handler_end = .
-                0x010562bc                sync_time_detect_handler_begin = .
+                0x01049450       0x10 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049450                led_detect
+                0x01049458                led7_scan_loop
+                0x01049460                loop_ui_handler_end = .
+                0x01049460                sync_time_detect_handler_begin = .
  *(.sync_time_loop_detect_region)
  .sync_time_loop_detect_region
-                0x010562bc        0x8 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010562bc                sys_timer_us_handler
-                0x010562c4                sync_time_detect_handler_end = .
-                0x010562c4                clock_switcher_begin = .
+                0x01049460        0x8 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049460                sys_timer_us_handler
+                0x01049468                sync_time_detect_handler_end = .
+                0x01049468                clock_switcher_begin = .
  *(.clock_switch.fun)
-                0x010562c4                clock_switcher_end = .
-                0x010562c4                bt_sleep_begin = .
+                0x01049468                clock_switcher_end = .
+                0x01049468                bt_sleep_begin = .
  *(.bt_sleep)
- .bt_sleep      0x010562c4       0x3c C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010562c4                bt_suspend_avctp_resumeavctp_release
-                0x010562d0                bt_suspend_hid_resumehid_release
-                0x010562dc                bt_suspend_a2dp_resumea2dp_release
-                0x010562e8                bt_suspend_hfp_resumehfp_release
-                0x010562f4                bt_suspend_user_cmd_loop_resumeuser_cmd_loop_release
-                0x01056300                bt_sleep_end = .
-                0x01056300                lmp_release_begin = .
+ .bt_sleep      0x01049468       0x3c C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049468                bt_suspend_avctp_resumeavctp_release
+                0x01049474                bt_suspend_hid_resumehid_release
+                0x01049480                bt_suspend_a2dp_resumea2dp_release
+                0x0104948c                bt_suspend_hfp_resumehfp_release
+                0x01049498                bt_suspend_user_cmd_loop_resumeuser_cmd_loop_release
+                0x010494a4                bt_sleep_end = .
+                0x010494a4                lmp_release_begin = .
  *(.lmp_release)
- .lmp_release   0x01056300        0x4 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056300                __release_only_close_edr_hardware
-                0x01056304                lmp_release_end = .
-                0x01056304                . = ((. + 0x3) & 0xfffffffc)
-                0x01056304                _sys_initcall_begin = .
+ .lmp_release   0x010494a4        0x4 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010494a4                __release_only_close_edr_hardware
+                0x010494a8                lmp_release_end = .
+                0x010494a8                . = ((. + 0x3) & 0xfffffffc)
+                0x010494a8                _sys_initcall_begin = .
  *(.sys.initcall)
- .sys.initcall  0x01056304       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056304                __initcall_fs_init_all
-                0x01056308                __initcall_audio_init
-                0x0105630c                __initcall_key_init
-                0x01056310                __initcall___led_fre_set
-                0x01056314                _sys_initcall_end = .
+ .sys.initcall  0x010494a8       0x10 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010494a8                __initcall_fs_init_all
+                0x010494ac                __initcall_audio_init
+                0x010494b0                __initcall_key_init
+                0x010494b4                __initcall___led_fre_set
+                0x010494b8                _sys_initcall_end = .
  *(.ble)
- .ble           0x01056314       0x10 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056314                __h4_close
-                0x01056318                __h4_can_send_packet_now
-                0x0105631c                __h4_send_packet
-                0x01056320                __h4_packet_handler
+ .ble           0x010494b8       0x10 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010494b8                __h4_close
+                0x010494bc                __h4_can_send_packet_now
+                0x010494c0                __h4_send_packet
+                0x010494c4                __h4_packet_handler
  *(.bredr)
  *(.bt_power)
  *(.poweroff_flash)
  .poweroff_flash
-                0x01056324        0x4 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056324                IS_POWEROFF
-                0x01056328                ble_text_begin = .
+                0x010494c8        0x4 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x010494c8                IS_POWEROFF
+                0x010494cc                ble_text_begin = .
  *(.ble_irq_text)
-                0x01056328                ble_text_end = .
-                0x01056328                bredr_text_begin = .
+                0x010494cc                ble_text_end = .
+                0x010494cc                bredr_text_begin = .
  *(.bredr_irq_text)
  .bredr_irq_text
-                0x01056328       0xa4 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x01056388                bt_clkn_handler
-                0x010563cc                bredr_text_end = .
+                0x010494cc       0xa4 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049530                bt_clkn_handler
+                0x01049570                bredr_text_end = .
  *(.sys_cfg)
  *(.ape_text)
-                0x010563cc                poweroff_text_begin = .
+                0x01049570                poweroff_text_begin = .
  *(.poweroff_text)
  .poweroff_text
-                0x010563cc      0x638 C:\Users\ADMINI~1\AppData\Local\Temp\lto-llvm-681b5d.o
-                0x010563cc                irq_index_to_prio
-                0x010564a2                irq_handler_register
-                0x010564f2                irq_handler_unregister
-                0x01056518                delay
-                0x01056522                irq_set_pending
-                0x01056548                irq_disable
-                0x01056570                irq_enable
-                0x0105658e                irq_global_enable
-                0x01056596                irq_init
-                0x010565b8                irq_index_tab_reg
-                0x010565c8                irq_global_disable
-                0x010565d0                irq_clear_all_ie
-                0x010565d8                radio_set_eninv_odd_open
-                0x01056600                radio_set_eninv_even_open
-                0x01056628                radio_set_eninv
-                0x01056674                irq_read
-                0x0105668c                slot_timer_init
-                0x010566b0                rf_reset_dual_mode
-                0x010566d4                bd_freq_table_init
-                0x0105671c                radio_set_eninv_open
-                0x010567c0                slot_timer_remove
-                0x010567f8                slot_timer_register_init
-                0x01056894                slot_timer_register
-                0x010568fc                check_slot_timer_handler
-                0x010569d4                error_isr_handler
-                0x010569e0                irq_set_prio
-                0x010569fc                irq_sys_disable
-                0x01056a00                irq_sys_enable
-                0x01056a04                poweroff_text_end = .
-                0x01056a04                text_end = .
+                0x01049570      0x634 C:\Users\yur4a\AppData\Local\Temp\lto-llvm-ff11af.o
+                0x01049570                irq_index_to_prio
+                0x01049646                irq_handler_register
+                0x01049696                irq_handler_unregister
+                0x010496bc                delay
+                0x010496c6                irq_set_pending
+                0x010496ec                irq_disable
+                0x01049714                irq_enable
+                0x01049732                irq_global_enable
+                0x0104973a                irq_init
+                0x0104975c                irq_index_tab_reg
+                0x0104976c                irq_global_disable
+                0x01049774                irq_clear_all_ie
+                0x0104977c                radio_set_eninv_odd_open
+                0x010497a4                radio_set_eninv_even_open
+                0x010497cc                radio_set_eninv
+                0x01049818                irq_read
+                0x01049830                slot_timer_init
+                0x01049854                rf_reset_dual_mode
+                0x01049878                bd_freq_table_init
+                0x010498c0                radio_set_eninv_open
+                0x01049964                slot_timer_remove
+                0x0104999c                slot_timer_register_init
+                0x01049a38                slot_timer_register
+                0x01049aa0                check_slot_timer_handler
+                0x01049b74                error_isr_handler
+                0x01049b80                irq_set_prio
+                0x01049b9c                irq_sys_disable
+                0x01049ba0                irq_sys_enable
+                0x01049ba4                poweroff_text_end = .
+                0x01049ba4                text_end = .
 
 .version
  *(.ver_magic_start)
@@ -2013,12 +1974,12 @@ LOAD obj\Release\apps\task_manager\task_rtc\task_rtc_key.o
                 0x000001e0                config_info_size = 0x1e0
                 0x01ffff80                tone_info_base = ((ORIGIN (code0) + LENGTH (code0)) - 0x80)
                 0x01000000                code_begin_addr = ORIGIN (code0)
-                0x00056a04                text_size = SIZEOF (.text)
-                0x0000f520                data_addr = ADDR (.data)
-                0x01056a04                data_begin = text_end
-                0x000012e4                data_size = SIZEOF (.data)
+                0x00049ba4                text_size = SIZEOF (.text)
+                0x0000bfd0                data_addr = ADDR (.data)
+                0x01049ba4                data_begin = text_end
+                0x0000110c                data_size = SIZEOF (.data)
                 0x00000200                bss_begin = 0x200
-                0x0000f518                bss_size = (SIZEOF (.bss) + 0x200)
+                0x0000bfd0                bss_size = (SIZEOF (.bss) + 0x200)
                 0x01000000                decompressed_dict_begin = ORIGIN (code0)
 START GROUP
 LOAD ../include_lib/bluetooth_lib.a
@@ -2071,6 +2032,7 @@ LOAD ../include_lib/sdmmc_lib.a
 LOAD ../include_lib/usb_lib.a
 LOAD ../include_lib/usb/lib_usb_syn.a
 LOAD C:\JL\pi32\lib\libc.a
+LOAD C:\JL\pi32\lib\libm.a
 LOAD C:\JL\pi32\lib\libcompiler-rt.a
 OUTPUT(download\post_build\flash\sdk.exe elf32-pi32)
 
